@@ -71,6 +71,7 @@ export const projects: Project[] = [
 export interface PearlProject {
   id: string;
   title: string;
+  summary: string;
   sections: {
     image: string;
     title: string;

@@ -46,16 +46,16 @@ export default function PearlProjects() {
                     <div className="lg:col-span-2 space-y-4">
                       <div>
                         <h3 className="text-xl font-semibold text-slate-950 mb-2">Initiative</h3>
-                        <p className="text-slate-700 leading-7">{project.description}</p>
-                      </div>
-                      <div>
-                        <h3 className="text-xl font-semibold text-slate-950 mb-2">Impact</h3>
-                        <p className="text-slate-700 leading-7">{project.impact}</p>
+                      <p className="text-slate-700 leading-7">{project.summary}</p>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-slate-950 mb-2">Impact</h3>
+                      <p className="text-slate-700 leading-7">{project.sections[1]?.content}</p>
                       </div>
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-slate-950 mb-2">Partners</h3>
-                      <p className="text-slate-700 leading-7">{project.partners}</p>
+                      <p className="text-slate-700 leading-7">{project.sections[2]?.content}</p>
                     </div>
                   </div>
                 </div>

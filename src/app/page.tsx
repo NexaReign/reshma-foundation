@@ -65,7 +65,7 @@ export default function Home() {
                   <div className="lg:w-1/2 p-8">
                     <span className="mb-4 inline-flex rounded-full bg-[#e9d5ff] px-3 py-1 text-sm font-semibold text-[#7c3aed]">Pearl Project {index + 1}</span>
                     <h3 className="text-2xl font-semibold text-slate-950 mb-4">{item.title}</h3>
-                    <p className="text-slate-700 leading-7">{item.description}</p>
+                    <p className="text-slate-700 leading-7">{item.summary}</p>
                   </div>
                 </article>
               </Link>
