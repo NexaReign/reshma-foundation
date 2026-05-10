@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { projects } from "@/data/projects";
+import { galleryProjects } from "@/data/projects";
 
-export default function Projects() {
+export default function Gallery() {
   return (
     <main className="min-h-screen bg-[#fff7ed] text-slate-950">
       <Header />
@@ -11,37 +11,42 @@ export default function Projects() {
       <section className="mx-auto max-w-6xl px-6 py-16 md:px-12">
         <div className="mb-10 flex items-center gap-4">
           <div className="h-1 w-16 rounded-full bg-[#f59e0b]" />
-          <h1 className="text-4xl font-semibold text-slate-950">Our Projects</h1>
+          <h1 className="text-4xl font-semibold text-slate-950">Gallery</h1>
         </div>
 
         <div className="mb-12">
           <p className="text-lg leading-8 text-slate-700 max-w-3xl">
-            Reshma Foundation undertakes comprehensive initiatives to uplift communities across Tamil Nadu.
-            Our projects focus on sustainable development, social inclusion, and humanitarian support.
+            Explore our collection of impactful projects and initiatives that have transformed communities across Tamil Nadu.
           </p>
         </div>
 
-        <div className="space-y-12">
-          {projects.map((project, index) => (
-            <article key={project.id} className={`rounded-3xl border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md flex ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
-              <div className="lg:w-1/2">
-                <div className="aspect-video relative">
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+        <div className="space-y-16">
+          {galleryProjects.map((project) => (
+            <div key={project.id} className="space-y-8">
+              <div className="text-center">
+                <h2 className="text-3xl font-semibold text-slate-950 mb-4">{project.title}</h2>
+                <p className="text-lg text-slate-700 max-w-2xl mx-auto">{project.description}</p>
               </div>
-              <div className="lg:w-1/2 p-8">
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[#f59e0b] to-[#fb923c] text-white">
-                  <span className="text-lg font-bold">{index + 1}</span>
-                </div>
-                <h3 className="text-2xl font-semibold text-slate-950 mb-4">{project.title}</h3>
-                <p className="text-slate-700 leading-7">{project.description}</p>
+
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                {project.sections.map((section, index) => (
+                  <div key={index} className="rounded-3xl overflow-hidden shadow-sm bg-white">
+                    <div className="aspect-video relative">
+                      <Image
+                        src={section.image}
+                        alt={`${project.title} - ${section.title}`}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-semibold text-slate-950 mb-2">{section.title}</h3>
+                      <p className="text-slate-700 text-sm leading-6">{section.content}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
-            </article>
+            </div>
           ))}
         </div>
       </section>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { pearlProjects } from "@/data/projects";
@@ -23,41 +24,43 @@ export default function PearlProjects() {
 
         <div className="space-y-12">
           {pearlProjects.map((project) => (
-            <div key={project.id} className="rounded-[2rem] border border-slate-200 bg-white overflow-hidden shadow-sm">
-              <div className="aspect-video relative">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-8">
-                <div className="mb-6 flex items-center gap-4">
-                  <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-[#c084fc] to-[#a855f7] flex items-center justify-center">
-                    <span className="text-2xl">💎</span>
-                  </div>
-                  <h2 className="text-3xl font-semibold text-slate-950">{project.title}</h2>
+            <Link key={project.id} href={`/pearl-projects/${project.id}`} className="block">
+              <div className="rounded-[2rem] border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md cursor-pointer">
+                <div className="aspect-video relative">
+                  <Image
+                    src={project.sections[0]?.image || "/images/hero/foundationWelcome.jpeg"}
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
+                <div className="p-8">
+                  <div className="mb-6 flex items-center gap-4">
+                    <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-[#c084fc] to-[#a855f7] flex items-center justify-center">
+                      <span className="text-2xl">💎</span>
+                    </div>
+                    <h2 className="text-3xl font-semibold text-slate-950">{project.title}</h2>
+                  </div>
 
-                <div className="grid gap-6 lg:grid-cols-3">
-                  <div className="lg:col-span-2 space-y-4">
-                    <div>
-                      <h3 className="text-xl font-semibold text-slate-950 mb-2">Initiative</h3>
-                      <p className="text-slate-700 leading-7">{project.description}</p>
+                  <div className="grid gap-6 lg:grid-cols-3">
+                    <div className="lg:col-span-2 space-y-4">
+                      <div>
+                        <h3 className="text-xl font-semibold text-slate-950 mb-2">Initiative</h3>
+                        <p className="text-slate-700 leading-7">{project.description}</p>
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-semibold text-slate-950 mb-2">Impact</h3>
+                        <p className="text-slate-700 leading-7">{project.impact}</p>
+                      </div>
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-slate-950 mb-2">Impact</h3>
-                      <p className="text-slate-700 leading-7">{project.impact}</p>
+                      <h3 className="text-xl font-semibold text-slate-950 mb-2">Partners</h3>
+                      <p className="text-slate-700 leading-7">{project.partners}</p>
                     </div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-slate-950 mb-2">Partners</h3>
-                    <p className="text-slate-700 leading-7">{project.partners}</p>
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>

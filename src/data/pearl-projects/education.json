@@ -1,0 +1,26 @@
+{
+  "id": "education",
+  "title": "Education",
+  "sections": [
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Our Initiative",
+      "content": "Re-enrolling students who dropped out during the pandemic and providing uniforms, books, and bags to underprivileged school children."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Impact",
+      "content": "Ensuring educational continuity, reducing dropout rates, and creating equal opportunities for academic success."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Partners",
+      "content": "Schools, teachers, educational foundations, and local governments."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "School Support",
+      "content": "Providing comprehensive educational materials and support to ensure every child has access to quality education."
+    }
+  ]
+}

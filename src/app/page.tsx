@@ -42,61 +42,33 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 py-16 md:px-12">
-        <div className="mb-10 flex items-center gap-4">
-          <div className="h-1 w-16 rounded-full bg-[#f59e0b]" />
-          <h2 className="text-3xl font-semibold text-slate-950">Our Projects</h2>
-        </div>
-        <div className="space-y-12">
-          {projects.slice(0, 6).map((project, index) => (
-            <article key={project.id} className={`rounded-3xl border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md flex ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
-              <div className="lg:w-1/2">
-                <div className="aspect-video relative">
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-              <div className="lg:w-1/2 p-8">
-                <span className="mb-4 inline-flex rounded-full bg-[#fde68a] px-3 py-1 text-sm font-semibold text-[#92400e]">Project {index + 1}</span>
-                <h3 className="text-2xl font-semibold text-slate-950 mb-4">{project.title}</h3>
-                <p className="text-slate-700 leading-7">{project.description}</p>
-              </div>
-            </article>
-          ))}
-        </div>
-        <div className="mt-8 text-center">
-          <Link href="/projects" className="inline-flex items-center gap-2 rounded-2xl bg-slate-100 px-6 py-3 text-slate-900 transition hover:bg-slate-200">
-            View All Projects →
-          </Link>
-        </div>
-      </section>
-
       <section className="bg-[#faf5ff] px-6 py-16 md:px-12">
         <div className="mx-auto max-w-6xl">
           <div className="mb-10 flex items-center gap-4">
             <div className="h-1 w-16 rounded-full bg-[#c084fc]" />
             <h2 className="text-3xl font-semibold text-slate-950">Pearl Projects</h2>
           </div>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {pearlProjects.map((item) => (
-              <div key={item.id} className="rounded-3xl bg-white overflow-hidden shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                <div className="aspect-video relative">
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-slate-950 mb-2">{item.title}</h3>
-                  <p className="text-slate-700 text-sm leading-6">{item.description.slice(0, 100)}...</p>
-                </div>
-              </div>
+          <div className="space-y-12">
+            {pearlProjects.map((item, index) => (
+              <Link key={item.id} href={`/pearl-projects/${item.id}`} className="block">
+                <article className={`rounded-3xl border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md flex ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+                  <div className="lg:w-1/2">
+                    <div className="aspect-video relative">
+                      <Image
+                        src={item.sections[0]?.image || "/images/hero/foundationWelcome.jpeg"}
+                        alt={item.title}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="lg:w-1/2 p-8">
+                    <span className="mb-4 inline-flex rounded-full bg-[#e9d5ff] px-3 py-1 text-sm font-semibold text-[#7c3aed]">Pearl Project {index + 1}</span>
+                    <h3 className="text-2xl font-semibold text-slate-950 mb-4">{item.title}</h3>
+                    <p className="text-slate-700 leading-7">{item.description}</p>
+                  </div>
+                </article>
+              </Link>
             ))}
           </div>
           <div className="mt-8 text-center">

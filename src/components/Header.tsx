@@ -11,7 +11,7 @@ import Link from "next/link";
 import HEADER_LOGO from "@/data/footerImages/logo.jpeg";
 
 const navItems = [
-  { label: "Projects", href: "/projects" },
+  { label: "Gallery", href: "/projects" },
   { label: "Pearl Projects", href: "/pearl-projects" },
   { label: "About Founder", href: "/about-founder" },
   { label: "Contact", href: "/contact" },
