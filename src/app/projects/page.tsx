@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { projects } from "@/data/projects";
@@ -20,17 +21,26 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="space-y-12">
           {projects.map((project, index) => (
-            <article key={project} className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[#f59e0b] to-[#fb923c] text-white">
-                <span className="text-lg font-bold">{index + 1}</span>
+            <article key={project.id} className={`rounded-3xl border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md flex ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+              <div className="lg:w-1/2">
+                <div className="aspect-video relative">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
-              <h3 className="text-xl font-semibold text-slate-950 mb-4">{project}</h3>
-              <p className="text-slate-700 leading-7">
-                This project addresses critical community needs through targeted interventions,
-                sustainable solutions, and collaborative partnerships with local stakeholders.
-              </p>
+              <div className="lg:w-1/2 p-8">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[#f59e0b] to-[#fb923c] text-white">
+                  <span className="text-lg font-bold">{index + 1}</span>
+                </div>
+                <h3 className="text-2xl font-semibold text-slate-950 mb-4">{project.title}</h3>
+                <p className="text-slate-700 leading-7">{project.description}</p>
+              </div>
             </article>
           ))}
         </div>

@@ -1,24 +1,28 @@
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import HeroSlider from "@/components/HeroSlider";
 import Footer from "@/components/Footer";
 import { projects, pearlProjects } from "@/data/projects";
+
+const heroImage = "/images/hero/foundationWelcome.jpeg";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#fff7ed] text-slate-950">
       <Header />
 
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#fcefe3] via-[#fff6ff] to-[#eef2ff] px-6 py-16 md:px-12">
-        <div className="mx-auto flex max-w-6xl flex-col gap-10">
-          <div className="space-y-6 text-center md:text-left">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#fcefe3] via-[#fff6ff] to-[#eef2ff] px-6 py-16 md:px-12" style={{backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="relative mx-auto flex max-w-6xl flex-col gap-10">
+          <div className="space-y-6 text-center md:text-left text-white">
             <p className="inline-flex rounded-full bg-[#ffd59e] px-4 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#7c3aed]">
               Serving since 1988
             </p>
-            <h1 className="max-w-4xl text-4xl font-semibold leading-tight text-slate-950 sm:text-5xl">
+            <h1 className="max-w-4xl text-4xl font-semibold leading-tight text-white sm:text-5xl drop-shadow-lg">
               Reshma Foundation: Service, hope, and dignity for every community.
             </h1>
-            <p className="max-w-3xl text-lg leading-8 text-slate-700 sm:text-xl">
+            <p className="max-w-3xl text-lg leading-8 text-white/90 sm:text-xl drop-shadow-md">
               Guided by Dr. K. Manivannan&apos;s lifelong devotion to social service, the foundation empowers marginalized groups, supports education, medical care, and nature conservation.
             </p>
           </div>
@@ -27,7 +31,7 @@ export default function Home() {
             <Link href="/projects" className="rounded-2xl bg-[#fb923c] px-6 py-4 text-center text-white shadow-lg shadow-orange-200 transition hover:bg-[#f97316]">
               Explore Projects
             </Link>
-            <Link href="/donate" className="rounded-2xl border border-[#7c3aed] bg-white px-6 py-4 text-center text-[#7c3aed] shadow-sm transition hover:border-transparent hover:bg-[#f7efff]">
+            <Link href="/donate" className="rounded-2xl border border-white bg-white/10 backdrop-blur-sm px-6 py-4 text-center text-white shadow-sm transition hover:bg-white/20">
               Support the Mission
             </Link>
           </div>
@@ -43,11 +47,24 @@ export default function Home() {
           <div className="h-1 w-16 rounded-full bg-[#f59e0b]" />
           <h2 className="text-3xl font-semibold text-slate-950">Our Projects</h2>
         </div>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="space-y-12">
           {projects.slice(0, 6).map((project, index) => (
-            <article key={project} className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-              <span className="mb-4 inline-flex rounded-full bg-[#fde68a] px-3 py-1 text-sm font-semibold text-[#92400e]">Project {index + 1}</span>
-              <h3 className="text-xl font-semibold text-slate-950">{project}</h3>
+            <article key={project.id} className={`rounded-3xl border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md flex ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+              <div className="lg:w-1/2">
+                <div className="aspect-video relative">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <div className="lg:w-1/2 p-8">
+                <span className="mb-4 inline-flex rounded-full bg-[#fde68a] px-3 py-1 text-sm font-semibold text-[#92400e]">Project {index + 1}</span>
+                <h3 className="text-2xl font-semibold text-slate-950 mb-4">{project.title}</h3>
+                <p className="text-slate-700 leading-7">{project.description}</p>
+              </div>
             </article>
           ))}
         </div>
@@ -64,10 +81,21 @@ export default function Home() {
             <div className="h-1 w-16 rounded-full bg-[#c084fc]" />
             <h2 className="text-3xl font-semibold text-slate-950">Pearl Projects</h2>
           </div>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {pearlProjects.map((item) => (
-              <div key={item} className="rounded-3xl bg-white px-5 py-6 text-center shadow-sm">
-                <p className="text-lg font-semibold text-slate-950">{item}</p>
+              <div key={item.id} className="rounded-3xl bg-white overflow-hidden shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                <div className="aspect-video relative">
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-slate-950 mb-2">{item.title}</h3>
+                  <p className="text-slate-700 text-sm leading-6">{item.description.slice(0, 100)}...</p>
+                </div>
               </div>
             ))}
           </div>
@@ -75,6 +103,39 @@ export default function Home() {
             <Link href="/pearl-projects" className="inline-flex items-center gap-2 rounded-2xl bg-[#c084fc] px-6 py-3 text-white transition hover:bg-[#a855f7]">
               Learn More About Pearl Projects →
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-slate-50 px-6 py-16 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
+            <div className="aspect-video rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Reshma Foundation Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+            <div className="space-y-6">
+              <h2 className="text-3xl font-semibold text-slate-950">Watch Our Impact in Action</h2>
+              <p className="text-lg leading-8 text-slate-700">
+                See how Reshma Foundation is transforming lives across Tamil Nadu through our various initiatives and community programs.
+              </p>
+              <a
+                href="https://www.youtube.com/channel/UCdQw4w9WgXcQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-2xl bg-red-600 px-6 py-3 text-white transition hover:bg-red-700"
+              >
+                Go to YouTube →
+              </a>
+            </div>
           </div>
         </div>
       </section>
