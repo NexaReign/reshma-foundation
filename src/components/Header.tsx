@@ -1,8 +1,14 @@
 'use client';
 
-import Link from "next/link";
+
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Image from "next/image";
+import Link from "next/link";
+
+
+// Image paths
+import HEADER_LOGO from "@/data/footerImages/logo.jpeg";
 
 const navItems = [
   { label: "Projects", href: "/projects" },
@@ -19,9 +25,15 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-12">
         <Link href="/" className="inline-flex items-center gap-3 text-slate-950">
-          <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[#f59e0b] to-[#ec4899] text-white shadow-lg shadow-orange-200">
-            R
-          </span>
+         <span className="flex h-12 w-12 items-center justify-center rounded-2xl overflow-hidden shadow-lg shadow-orange-200 bg-white">
+            <Image
+            src={HEADER_LOGO}
+            alt="Reshma Foundation Logo"
+            width={48}
+            height={48}
+            className="object-cover"
+            />
+        </span>
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-slate-500">Reshma Foundation</p>
             <p className="text-base font-semibold text-slate-950">Serving communities since 1988</p>
