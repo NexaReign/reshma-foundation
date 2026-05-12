@@ -1,0 +1,47 @@
+{
+  "id": "marginalized-communities",
+  "title": "Marginalized Communities",
+  "summary": "Empowering marginalized communities through job placement, entrepreneurship, and ongoing support.",
+  "sections": [
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Our Initiative",
+      "content": "Empowering the transgender and visually challenged communities through job placement in companies like Ola, Uber, and Rapido, and by providing entrepreneurial resources."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Impact",
+      "content": "Creating economic independence, social inclusion, and breaking down barriers to employment for marginalized groups."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Partners",
+      "content": "Corporate partners, disability rights organizations, and community leaders."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Success Stories",
+      "content": "Over 200 individuals from marginalized communities have found stable employment and improved their quality of life through our programs."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Future Plans",
+      "content": "Expanding our reach to include more corporate partnerships and skill development programs for sustainable employment."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Community Support",
+      "content": "Providing ongoing mentorship and support to ensure long-term success and integration into mainstream employment."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Join Our Mission",
+      "content": "Partner with us to create inclusive opportunities and break down barriers for marginalized communities."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Contact Us",
+      "content": "Reach out to learn more about our empowerment programs and how you can get involved."
+    }
+  ]
+}

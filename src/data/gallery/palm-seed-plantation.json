@@ -1,0 +1,18 @@
+{
+  "id": "palm-seed-plantation",
+  "title": "Palm seed plantation for drought relief",
+  "description": "Planting 200,000 palm seeds across Tamil Nadu to combat drought and prevent soil erosion through sustainable reforestation initiatives.",
+  "image": "/images/hero/foundationWelcome.jpeg",
+  "sections": [
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Environmental Impact",
+      "content": "Our palm seed plantation initiative has successfully planted over 200,000 seeds, creating green corridors that prevent soil erosion and provide natural water conservation."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Community Involvement",
+      "content": "Local communities actively participate in planting and maintaining these plantations, creating sustainable livelihoods and environmental awareness."
+    }
+  ]
+}
