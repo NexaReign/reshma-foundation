@@ -1,0 +1,43 @@
+{
+  "id": "Media",
+  "title": "Media Gallery",
+  "description": "Photos and coverage from our media outreach, events, and campaigns.",
+  "image": "/images/gallery/Media/Media1.jpg",
+  "sections": [
+    {
+      "image": "/images/gallery/Media/Media1.jpg",
+      "title": "Campaign Launch",
+      "content": "A media spotlight on our community outreach and public awareness events."
+    },
+    {
+      "image": "/images/gallery/Media/Media2.jpg",
+      "title": "Campaign Launch",
+      "content": "A media spotlight on our community outreach and public awareness events."
+    },
+    {
+      "image": "/images/gallery/Media/Media3.jpg",
+      "title": "Community Stories",
+      "content": "Captured moments that highlight the people and progress behind our initiatives."
+    },
+    {
+      "image": "/images/gallery/Media/Media4.jpg",
+      "title": "Event Coverage",
+      "content": "Photographs from awareness drives, fundraisers, and volunteer activities."
+    },
+    {
+      "image": "/images/gallery/Media/Media5.jpg",
+      "title": "Campaign Launch",
+      "content": "A media spotlight on our community outreach and public awareness events."
+    },
+    {
+      "image": "/images/gallery/Media/Media6.jpg",
+      "title": "Community Stories",
+      "content": "Captured moments that highlight the people and progress behind our initiatives."
+    },
+    {
+      "image": "/images/gallery/Media/Media7.jpg",
+      "title": "Event Coverage",
+      "content": "Photographs from awareness drives, fundraisers, and volunteer activities."
+    }
+  ]
+}
