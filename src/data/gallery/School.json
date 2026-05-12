@@ -1,0 +1,83 @@
+{
+  "id": "School",
+  "title": "School Gallery",
+  "description": "Visual stories from our school support initiatives, classrooms, and student activities.",
+  "image": "/images/gallery/School/School1.jpg",
+  "sections": [
+    {
+      "image": "/images/gallery/School/School2.jpg",
+      "title": "Classroom Support",
+      "content": "Students engaged in learning with the supplies and support our programs provide."
+    },
+    {
+      "image": "/images/gallery/School/School3.jpg",
+      "title": "School Events",
+      "content": "Snapshots from school activities and community education events."
+    },
+    {
+      "image": "/images/gallery/School/School4.jpg",
+      "title": "Student Engagement",
+      "content": "Hands-on learning and joyful moments during our school support visits."
+    },
+    {
+      "image": "/images/gallery/School/School5.jpg",
+      "title": "Classroom Support",
+      "content": "Students engaged in learning with the supplies and support our programs provide."
+    },
+    {
+      "image": "/images/gallery/School/School6.jpg",
+      "title": "School Events",
+      "content": "Snapshots from school activities and community education events."
+    },
+    {
+      "image": "/images/gallery/School/School7.jpg",
+      "title": "Student Engagement",
+      "content": "Hands-on learning and joyful moments during our school support visits."
+    },
+    {
+      "image": "/images/gallery/School/School8.jpg",
+      "title": "Classroom Support",
+      "content": "Students engaged in learning with the supplies and support our programs provide."
+    },
+    {
+      "image": "/images/gallery/School/School9.jpg",
+      "title": "School Events",
+      "content": "Snapshots from school activities and community education events."
+    },
+    {
+      "image": "/images/gallery/School/School10.jpg",
+      "title": "Student Engagement",
+      "content": "Hands-on learning and joyful moments during our school support visits."
+    },
+    {
+      "image": "/images/gallery/School/School11.jpg",
+      "title": "Classroom Support",
+      "content": "Students engaged in learning with the supplies and support our programs provide."
+    },
+    {
+      "image": "/images/gallery/School/School12.jpg",
+      "title": "School Events",
+      "content": "Snapshots from school activities and community education events."
+    },
+    {
+      "image": "/images/gallery/School/School13.jpg",
+      "title": "Student Engagement",
+      "content": "Hands-on learning and joyful moments during our school support visits."
+    },
+    {
+      "image": "/images/gallery/School/School14.jpg",
+      "title": "Classroom Support",
+      "content": "Students engaged in learning with the supplies and support our programs provide."
+    },
+    {
+      "image": "/images/gallery/School/School15.jpg",
+      "title": "School Events",
+      "content": "Snapshots from school activities and community education events."
+    },
+    {
+      "image": "/images/gallery/School/School16.jpg",
+      "title": "Student Engagement",
+      "content": "Hands-on learning and joyful moments during our school support visits."
+    }
+  ]
+}

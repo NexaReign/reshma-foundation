@@ -39,7 +39,7 @@ export default function Stories() {
             <div className="aspect-[16/9] overflow-hidden rounded-3xl bg-slate-100">
               <iframe
                 className="h-full w-full"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://youtu.be/D1D83gLdnv4?si=ie40yOlQ8OBTWNfo"
                 title="Beneficiary story video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
