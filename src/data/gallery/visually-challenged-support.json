@@ -1,0 +1,23 @@
+{
+  "id": "visually-challenged-support",
+  "title": "Support for the visually challenged",
+  "description": "Providing comprehensive support including job placement, marriage arrangements, and household essentials for the visually challenged community.",
+  "image": "/images/hero/foundationWelcome.jpeg",
+  "sections": [
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Employment Opportunities",
+      "content": "Created specialized job placements in call centers, data entry, and handicraft production for visually challenged individuals."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Marriage Support",
+      "content": "Successfully arranged marriages for 15 couples, providing complete wedding arrangements and household setup."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Daily Living Assistance",
+      "content": "Distributing essential household items, mobility aids, and providing training for independent living."
+    }
+  ]
+}

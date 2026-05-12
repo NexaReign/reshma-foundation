@@ -1,0 +1,23 @@
+{
+  "id": "transgender-empowerment",
+  "title": "Transgender empowerment and job placement",
+  "description": "Empowering the transgender community through job placement in companies like Ola, Uber, and Rapido, and by providing entrepreneurial resources.",
+  "image": "/images/hero/foundationWelcome.jpeg",
+  "sections": [
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Job Placement Success",
+      "content": "Successfully placed over 150 transgender individuals in stable employment with major ride-sharing and delivery companies."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Skill Development",
+      "content": "Providing comprehensive training programs in customer service, vehicle maintenance, and financial literacy."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Entrepreneurial Support",
+      "content": "Offering micro-loans and business mentorship to help community members start their own ventures."
+    }
+  ]
+}

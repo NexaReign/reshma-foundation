@@ -1,0 +1,32 @@
+{
+  "id": "nature-conservation",
+  "title": "Nature Conservation",
+  "summary": "Planting 200,000 palm seeds and creating sustainable green corridors across Tamil Nadu.",
+  "sections": [
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Our Initiative",
+      "content": "Planting 200,000 palm seeds across Tamil Nadu to combat drought and prevent soil erosion through sustainable reforestation initiatives."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Impact",
+      "content": "Protecting water resources, preventing desertification, and creating sustainable agricultural practices for future generations."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Partners",
+      "content": "Local communities, government forestry departments, and environmental NGOs."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Join Us",
+      "content": "Support our efforts to make a lasting difference in communities across Tamil Nadu."
+    },
+    {
+      "image": "/images/hero/foundationWelcome.jpeg",
+      "title": "Future Goals",
+      "content": "Expanding our reforestation efforts to cover 500,000 palm seeds by 2025 and creating sustainable green corridors across the state."
+    }
+  ]
+}
