@@ -92,27 +92,25 @@ export interface GalleryProject {
 }
 
 // Import individual pearl project JSON files
-import natureConservationData from './pearl-projects/nature-conservation.json';
-import marginalizedCommunitiesData from './pearl-projects/marginalized-communities.json';
-import hungerReliefData from './pearl-projects/hunger-relief.json';
-import medicalSupportData from './pearl-projects/medical-support.json';
-import educationData from './pearl-projects/education.json';
+import Palm_treeData from './pearl-projects/Palm_tree.json';
+import MarginalizedData from './pearl-projects/Marginalized.json';
+import HungerData from './pearl-projects/Hunger.json';
+import Blind_and_medicalData from './pearl-projects/Blind_and_medical.json';
+import TransgenderData from './pearl-projects/Transgender.json';
 
 // Import gallery project JSON files
-import palmSeedPlantationData from './gallery/palm-seed-plantation.json';
-import transgenderEmpowermentData from './gallery/transgender-empowerment.json';
-import visuallyChallengedSupportData from './gallery/visually-challenged-support.json';
+import MediaGalleryData from './gallery/Media.json';
+import SchoolGalleryData from './gallery/School.json';
 
 export const pearlProjects: PearlProject[] = [
-  natureConservationData,
-  marginalizedCommunitiesData,
-  hungerReliefData,
-  medicalSupportData,
-  educationData
+  Palm_treeData,
+  MarginalizedData,
+  HungerData,
+  Blind_and_medicalData,
+  TransgenderData
 ];
 
 export const galleryProjects: GalleryProject[] = [
-  palmSeedPlantationData,
-  transgenderEmpowermentData,
-  visuallyChallengedSupportData
+  MediaGalleryData,
+  SchoolGalleryData
 ];
