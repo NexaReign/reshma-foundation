@@ -26,7 +26,7 @@ export default function PearlProjects() {
           {pearlProjects.map((project) => (
             <Link key={project.id} href={`/pearl-projects/${project.id}`} className="block">
               <div className="rounded-[2rem] border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md cursor-pointer">
-                <div className="aspect-video relative">
+                <div className="aspect-square relative">
                   <Image
                     src={project.sections[0]?.image || "/images/hero/foundationWelcome.jpeg"}
                     alt={project.title}

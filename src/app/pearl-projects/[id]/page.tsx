@@ -34,8 +34,8 @@ export default async function PearlProjectPage({ params }: { params: Promise<{ i
         <div className="space-y-16">
           {project.sections.map((section, index) => (
             <article key={index} className={`flex flex-col lg:flex-row ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 items-center`}>
-              <div className="lg:w-1/2">
-                <div className="aspect-video relative rounded-2xl overflow-hidden shadow-lg">
+              <div className="w-full lg:w-1/2">
+                <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-lg">
                   <Image
                     src={section.image}
                     alt={`${project.title} - ${section.title}`}

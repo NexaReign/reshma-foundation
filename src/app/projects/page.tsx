@@ -20,34 +20,25 @@ export default function Gallery() {
           </p>
         </div>
 
-        <div className="space-y-16">
-          {galleryProjects.map((project) => (
-            <div key={project.id} className="space-y-8">
-              <div className="text-center">
-                <h2 className="text-3xl font-semibold text-slate-950 mb-4">{project.title}</h2>
-                <p className="text-lg text-slate-700 max-w-2xl mx-auto">{project.description}</p>
-              </div>
-
-              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                {project.sections.map((section, index) => (
-                  <div key={index} className="rounded-3xl overflow-hidden shadow-sm bg-white">
-                    <div className="aspect-video relative">
-                      <Image
-                        src={section.image}
-                        alt={`${project.title} - ${section.title}`}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-semibold text-slate-950 mb-2">{section.title}</h3>
-                      <p className="text-slate-700 text-sm leading-6">{section.content}</p>
-                    </div>
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {galleryProjects.flatMap(project =>
+            project.sections.map((section, index) => (
+              <div key={`${project.id}-${index}`} className="rounded-3xl overflow-hidden shadow-sm bg-white relative group">
+                <div className="aspect-square relative">
+                  <Image
+                    src={section.image}
+                    alt={`${project.title} - ${section.title}`}
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-6 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
+                    <h3 className="text-xl font-semibold mb-2">{section.title}</h3>
+                    <p className="text-sm leading-6">{section.content}</p>
                   </div>
-                ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))
+          )}
         </div>
       </section>
 

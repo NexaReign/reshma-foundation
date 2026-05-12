@@ -86,7 +86,7 @@ export default function Home() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://youtu.be/D1D83gLdnv4?si=ie40yOlQ8OBTWNfo"
                 title="Reshma Foundation Video"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -100,7 +100,7 @@ export default function Home() {
                 See how Reshma Foundation is transforming lives across Tamil Nadu through our various initiatives and community programs.
               </p>
               <a
-                href="https://www.youtube.com/channel/UCdQw4w9WgXcQ"
+                href="https://youtu.be/D1D83gLdnv4?si=ie40yOlQ8OBTWNfo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-2xl bg-red-600 px-6 py-3 text-white transition hover:bg-red-700"
