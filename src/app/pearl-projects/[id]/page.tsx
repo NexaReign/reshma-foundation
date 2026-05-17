@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ImagePreview from "@/components/ImagePreview";
 import { pearlProjects } from "@/data/projects";
 import { notFound } from "next/navigation";
 
@@ -36,12 +37,14 @@ export default async function PearlProjectPage({ params }: { params: Promise<{ i
             <article key={index} className={`flex flex-col lg:flex-row ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 items-center`}>
               <div className="w-full lg:w-1/2">
                 <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-lg">
-                  <Image
-                    src={section.image}
-                    alt={`${project.title} - ${section.title}`}
-                    fill
-                    className="object-cover"
-                  />
+                  <ImagePreview src={section.image} alt={`${project.title} - ${section.title}`}>
+                    <Image
+                      src={section.image}
+                      alt={`${project.title} - ${section.title}`}
+                      fill
+                      className="object-cover"
+                    />
+                  </ImagePreview>
                 </div>
               </div>
               <div className="lg:w-1/2 space-y-6">
