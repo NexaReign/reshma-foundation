@@ -3,9 +3,10 @@ import Image from "next/image";
 import Header from "@/components/Header";
 import HeroSlider from "@/components/HeroSlider";
 import Footer from "@/components/Footer";
+import ImagePreview from "@/components/ImagePreview";
 import { projects, pearlProjects } from "@/data/projects";
 
-const heroImage = "/images/hero/foundationWelcome.jpeg";
+const heroImage = "/images/hero/foundationWelcome.png";
 
 export default function Home() {
   return (
@@ -51,18 +52,20 @@ export default function Home() {
           <div className="space-y-12">
             {pearlProjects.map((item, index) => (
               <Link key={item.id} href={`/pearl-projects/${item.id}`} className="block">
-                <article className={`rounded-3xl border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md flex ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
-                  <div className="lg:w-1/2">
-                    <div className="aspect-video relative">
-                      <Image
-                        src={item.sections[0]?.image || "/images/hero/foundationWelcome.jpeg"}
-                        alt={item.title}
-                        fill
-                        className="object-cover"
-                      />
+                <article className={`rounded-3xl border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+                  <div className="w-full lg:w-1/2">
+                    <div className="aspect-[4/3] relative">
+                      <ImagePreview src={item.sections[0]?.image || "/images/hero/foundationWelcome.png"} alt={item.title} className="w-full h-full">
+                        <Image
+                          src={item.sections[0]?.image || "/images/hero/foundationWelcome.png"}
+                          alt={item.title}
+                          fill
+                          className="object-cover"
+                        />
+                      </ImagePreview>
                     </div>
                   </div>
-                  <div className="lg:w-1/2 p-8">
+                  <div className="w-full lg:w-1/2 p-8">
                     <span className="mb-4 inline-flex rounded-full bg-[#e9d5ff] px-3 py-1 text-sm font-semibold text-[#7c3aed]">Pearl Project {index + 1}</span>
                     <h3 className="text-2xl font-semibold text-slate-950 mb-4">{item.title}</h3>
                     <p className="text-slate-700 leading-7">{item.summary}</p>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ImagePreview from "@/components/ImagePreview";
 import { galleryProjects } from "@/data/projects";
 
 export default function Gallery() {
@@ -25,12 +26,14 @@ export default function Gallery() {
             project.sections.map((section, index) => (
               <div key={`${project.id}-${index}`} className="rounded-3xl overflow-hidden shadow-sm bg-white relative group">
                 <div className="aspect-square relative">
-                  <Image
-                    src={section.image}
-                    alt={`${project.title} - ${section.title}`}
-                    fill
-                    className="object-cover"
-                  />
+                  <ImagePreview src={section.image} alt={`${project.title} - ${section.title}`} className="w-full h-full">
+                    <Image
+                      src={section.image}
+                      alt={`${project.title} - ${section.title}`}
+                      fill
+                      className="object-cover"
+                    />
+                  </ImagePreview>
                   <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-6 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
                     <h3 className="text-xl font-semibold mb-2">{section.title}</h3>
                     <p className="text-sm leading-6">{section.content}</p>
