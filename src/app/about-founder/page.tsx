@@ -3,6 +3,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import ImagePreview from "@/components/ImagePreview";
 import { useState } from 'react';
 import introductionData from "@/data/introduction.json";
 
@@ -90,12 +91,14 @@ export default function AboutFounder() {
           <h3 className="text-xl font-semibold text-slate-950 mb-4">Services</h3>
           <div className="relative mx-auto max-w-4xl">
             <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-xl">
-              <Image
-                src={images[currentIndex].src}
-                alt={`Service ${currentIndex + 1}`}
-                fill
-                className="object-cover"
-              />
+              <ImagePreview src={images[currentIndex].src} alt={`Service ${currentIndex + 1}`}>
+                <Image
+                  src={images[currentIndex].src}
+                  alt={`Service ${currentIndex + 1}`}
+                  fill
+                  className="object-cover"
+                />
+              </ImagePreview>
               <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 text-white p-6">
                 <p className="text-base leading-7">{images[currentIndex].desc}</p>
               </div>

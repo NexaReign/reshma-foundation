@@ -28,7 +28,7 @@ export default function PearlProjects() {
               <div className="rounded-[2rem] border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md cursor-pointer">
                 <div className="aspect-square relative">
                   <Image
-                    src={project.sections[0]?.image || "/images/hero/foundationWelcome.jpeg"}
+                    src={project.sections[0]?.image || "/images/hero/foundationWelcome.png"}
                     alt={project.title}
                     fill
                     className="object-cover"
