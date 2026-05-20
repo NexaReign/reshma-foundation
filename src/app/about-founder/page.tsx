@@ -91,17 +91,14 @@ export default function AboutFounder() {
           <h3 className="text-xl font-semibold text-slate-950 mb-4">Services</h3>
           <div className="relative mx-auto max-w-4xl">
             <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-xl">
-              <ImagePreview src={images[currentIndex].src} alt={`Service ${currentIndex + 1}`}>
+              <ImagePreview src={images[currentIndex]} alt={`Service ${currentIndex + 1}`}>
                 <Image
-                  src={images[currentIndex].src}
+                  src={images[currentIndex]}
                   alt={`Service ${currentIndex + 1}`}
                   fill
                   className="object-cover"
                 />
               </ImagePreview>
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 text-white p-6">
-                <p className="text-base leading-7">{images[currentIndex].desc}</p>
-              </div>
             </div>
             <button onClick={() => setCurrentIndex((currentIndex - 1 + images.length) % images.length)} className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-3 rounded-full shadow-md hover:bg-opacity-90">‹</button>
             <button onClick={() => setCurrentIndex((currentIndex + 1) % images.length)} className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-3 rounded-full shadow-md hover:bg-opacity-90">›</button>

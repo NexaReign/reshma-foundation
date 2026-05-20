@@ -28,7 +28,7 @@ export default function PearlProjects() {
               <div className="rounded-[2rem] border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md cursor-pointer">
                 <div className="aspect-square relative">
                   <Image
-                    src={project.sections[0]?.image || "/images/hero/foundationWelcome.png"}
+                    src={project.images?.[0] || "/images/hero/foundationWelcome.png"}
                     alt={project.title}
                     fill
                     className="object-cover"
@@ -42,22 +42,9 @@ export default function PearlProjects() {
                     <h2 className="text-3xl font-semibold text-slate-950">{project.title}</h2>
                   </div>
 
-                  <div className="grid gap-6 lg:grid-cols-3">
-                    <div className="lg:col-span-2 space-y-4">
-                      <div>
-                        <h3 className="text-xl font-semibold text-slate-950 mb-2">Initiative</h3>
-                      <p className="text-slate-700 leading-7">{project.summary}</p>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-slate-950 mb-2">Impact</h3>
-                      <p className="text-slate-700 leading-7">{project.sections[1]?.content}</p>
-                      </div>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-slate-950 mb-2">Partners</h3>
-                      <p className="text-slate-700 leading-7">{project.sections[2]?.content}</p>
-                    </div>
-                  </div>
+                  <div className="space-y-4">
+                  <p className="text-slate-700 leading-7">{project.summary}</p>
+                </div>
                 </div>
               </div>
             </Link>

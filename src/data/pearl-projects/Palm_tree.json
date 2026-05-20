@@ -1,122 +1,31 @@
 {
   "id": "Palm_tree",
-  "title": "Nature Conservation",
-  "summary": "Planting 200,000 palm seeds and creating sustainable green corridors across Tamil Nadu.",
-  "sections": [
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree1.jpg",
-      "title": "Our Initiative",
-      "content": "Planting 200,000 palm seeds across Tamil Nadu to combat drought and prevent soil erosion through sustainable reforestation initiatives."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree2.jpg",
-      "title": "Impact",
-      "content": "Protecting water resources, preventing desertification, and creating sustainable agricultural practices for future generations."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree3.jpg",
-      "title": "Partners",
-      "content": "Local communities, government forestry departments, and environmental NGOs."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree4.jpg",
-      "title": "Join Us",
-      "content": "Support our efforts to make a lasting difference in communities across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree5.jpg",
-      "title": "Future Goals",
-      "content": "Expanding our reforestation efforts to cover 500,000 palm seeds by 2025 and creating sustainable green corridors across the state."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree6.jpg",
-      "title": "Our Initiative",
-      "content": "Planting 200,000 palm seeds across Tamil Nadu to combat drought and prevent soil erosion through sustainable reforestation initiatives."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree7.jpg",
-      "title": "Impact",
-      "content": "Protecting water resources, preventing desertification, and creating sustainable agricultural practices for future generations."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree8.jpg",
-      "title": "Partners",
-      "content": "Local communities, government forestry departments, and environmental NGOs."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree9.jpg",
-      "title": "Join Us",
-      "content": "Support our efforts to make a lasting difference in communities across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree10.jpg",
-      "title": "Future Goals",
-      "content": "Expanding our reforestation efforts to cover 500,000 palm seeds by 2025 and creating sustainable green corridors across the state."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree11.jpg",
-      "title": "Our Initiative",
-      "content": "Planting 200,000 palm seeds across Tamil Nadu to combat drought and prevent soil erosion through sustainable reforestation initiatives."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree12.jpg",
-      "title": "Impact",
-      "content": "Protecting water resources, preventing desertification, and creating sustainable agricultural practices for future generations."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree13.jpg",
-      "title": "Partners",
-      "content": "Local communities, government forestry departments, and environmental NGOs."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree14.jpg",
-      "title": "Join Us",
-      "content": "Support our efforts to make a lasting difference in communities across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree15.jpg",
-      "title": "Future Goals",
-      "content": "Expanding our reforestation efforts to cover 500,000 palm seeds by 2025 and creating sustainable green corridors across the state."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree16.jpg",
-      "title": "Our Initiative",
-      "content": "Planting 200,000 palm seeds across Tamil Nadu to combat drought and prevent soil erosion through sustainable reforestation initiatives."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree17.jpg",
-      "title": "Impact",
-      "content": "Protecting water resources, preventing desertification, and creating sustainable agricultural practices for future generations."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree18.jpg",
-      "title": "Partners",
-      "content": "Local communities, government forestry departments, and environmental NGOs."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree19.jpg",
-      "title": "Join Us",
-      "content": "Support our efforts to make a lasting difference in communities across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree20.jpg",
-      "title": "Future Goals",
-      "content": "Expanding our reforestation efforts to cover 500,000 palm seeds by 2025 and creating sustainable green corridors across the state."
-    },
-     {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree21.jpg",
-      "title": "Partners",
-      "content": "Local communities, government forestry departments, and environmental NGOs."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree22.jpg",
-      "title": "Join Us",
-      "content": "Support our efforts to make a lasting difference in communities across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Palm_tree/Palm_tree23.jpg",
-      "title": "Future Goals",
-      "content": "Expanding our reforestation efforts to cover 500,000 palm seeds by 2025 and creating sustainable green corridors across the state."
-    }
+  "title": "Palm Tree Conservation & Environmental Sustainability",
+  "summary": "Reshma Foundation promotes environmental sustainability through large-scale palm tree plantation initiatives across Tamil Nadu, contributing to ecological restoration, biodiversity preservation, and long-term environmental protection.",
+  "description": "Reshma Foundation, together with Lions Club and environmental partners, has undertaken large-scale ecological initiatives aimed at restoring and protecting Tamil Nadu’s natural environment through palm tree conservation. Massive palm seed plantation drives were carried out across coastal regions including Panaiyur, Marakanam, Thiruvenkaranai, Trichy, Virudhunagar, Kalpakkam, and Rameswaram. Thousands of palm seeds and saplings were planted with the participation of volunteers, social organizations, and community groups as part of a broader environmental vision to restore traditional ecosystems and strengthen climate resilience. With plantation efforts reaching nearly five lakh palm seeds, the initiative reflects Reshma Foundation’s long-term commitment to environmental sustainability, biodiversity preservation, and community-driven ecological restoration.",
+  "images": [
+    "/images/pearl-projects/Palm_tree/Palm_tree1.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree2.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree3.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree4.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree5.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree6.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree7.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree8.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree9.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree10.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree11.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree12.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree13.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree14.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree15.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree16.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree17.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree18.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree19.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree20.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree21.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree22.jpg",
+    "/images/pearl-projects/Palm_tree/Palm_tree23.jpg"
   ]
 }

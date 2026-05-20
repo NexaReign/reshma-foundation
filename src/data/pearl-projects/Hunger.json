@@ -1,157 +1,37 @@
 {
   "id": "Hunger",
-  "title": "Hunger Relief",
-  "summary": "Distributing essential food supplies through community partnerships to keep families fed.",
-  "sections": [
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger1.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger2.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger3.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger4.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger5.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger6.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger7.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger8.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger9.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger10.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger1.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger12.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger13.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger14.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger15.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger16.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger17.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger18.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger19.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger20.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger21.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger22.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger23.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger24.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger25.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger26.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger27.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger28.jpg",
-      "title": "Our Initiative",
-      "content": "Partnering with the Lions Club to distribute essential food items to orphanages, elderly homes, and the homeless across Tamil Nadu."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger29.jpg",
-      "title": "Impact",
-      "content": "Ensuring no one goes hungry, providing nutritional support, and building community resilience during times of need."
-    },
-    {
-      "image": "/images/pearl-projects/Hunger/Hunger30.jpg",
-      "title": "Partners",
-      "content": "Lions Club International, local food banks, and charitable organizations."
-    }
+  "title": "Hunger Relief & Community Feeding",
+  "summary": "Reshma Foundation actively combats hunger through food distribution drives, grocery support programs, and community feeding initiatives for economically disadvantaged families, vulnerable individuals, and frontline workers. Every initiative is driven by the belief that no one should go to bed hungry.",
+  "description": "Reshma Foundation and Lions Club have consistently addressed hunger and food insecurity by reaching communities facing extreme hardship and economic challenges. Food assistance programs have supported widows, visually challenged individuals, families living in vulnerable environments, and people struggling to meet their daily needs through the distribution of groceries, rice bags, and essential supplies. Community food services were also conducted in homes and places of worship to ensure dignity and care for those in need. In addition, large-scale meal programs were organized to provide food support to nearly 1,000 frontline workers in Kodungaiyur, recognizing their service and contribution to society. Through these efforts, Reshma Foundation continues its mission of ensuring that no individual is left behind due to hunger.",
+  "images": [
+    "/images/pearl-projects/Hunger/Hunger1.jpg",
+    "/images/pearl-projects/Hunger/Hunger2.jpg",
+    "/images/pearl-projects/Hunger/Hunger3.jpg",
+    "/images/pearl-projects/Hunger/Hunger4.jpg",
+    "/images/pearl-projects/Hunger/Hunger5.jpg",
+    "/images/pearl-projects/Hunger/Hunger6.jpg",
+    "/images/pearl-projects/Hunger/Hunger7.jpg",
+    "/images/pearl-projects/Hunger/Hunger8.jpg",
+    "/images/pearl-projects/Hunger/Hunger9.jpg",
+    "/images/pearl-projects/Hunger/Hunger10.jpg",
+    "/images/pearl-projects/Hunger/Hunger12.jpg",
+    "/images/pearl-projects/Hunger/Hunger13.jpg",
+    "/images/pearl-projects/Hunger/Hunger14.jpg",
+    "/images/pearl-projects/Hunger/Hunger15.jpg",
+    "/images/pearl-projects/Hunger/Hunger16.jpg",
+    "/images/pearl-projects/Hunger/Hunger17.jpg",
+    "/images/pearl-projects/Hunger/Hunger18.jpg",
+    "/images/pearl-projects/Hunger/Hunger19.jpg",
+    "/images/pearl-projects/Hunger/Hunger20.jpg",
+    "/images/pearl-projects/Hunger/Hunger21.jpg",
+    "/images/pearl-projects/Hunger/Hunger22.jpg",
+    "/images/pearl-projects/Hunger/Hunger23.jpg",
+    "/images/pearl-projects/Hunger/Hunger24.jpg",
+    "/images/pearl-projects/Hunger/Hunger25.jpg",
+    "/images/pearl-projects/Hunger/Hunger26.jpg",
+    "/images/pearl-projects/Hunger/Hunger27.jpg",
+    "/images/pearl-projects/Hunger/Hunger28.jpg",
+    "/images/pearl-projects/Hunger/Hunger29.jpg",
+    "/images/pearl-projects/Hunger/Hunger30.jpg"
   ]
 }
