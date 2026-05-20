@@ -1,4 +1,4 @@
-import { donors } from "@/data/donors";
+import DonorsList from "@/components/DonorsList";
 
 export default function Donate() {
   return (
@@ -19,16 +19,7 @@ export default function Donate() {
         <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
           <h3 className="mb-5 text-xl font-semibold text-slate-950">Donor recognition</h3>
           <div className="overflow-hidden rounded-3xl border border-slate-100 bg-[#f8fafc] p-4">
-            <div className="scroll-fade">
-              <div className="space-y-4">
-                {donors.map((donor) => (
-                  <div key={donor.name} className="flex items-center justify-between rounded-3xl bg-white px-5 py-4 shadow-sm">
-                    <span className="font-medium text-slate-900">{donor.name}</span>
-                    <span className="text-slate-600">{donor.amount}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+            <DonorsList />
           </div>
         </div>
       </div>
