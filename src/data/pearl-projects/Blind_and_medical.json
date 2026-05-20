@@ -1,197 +1,45 @@
 {
   "id": "Blind_and_medical",
-  "title": "Blind and Medical Aid",
-  "summary": "Providing critical medical aid and support for families facing serious health challenges.",
-  "sections": [
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical1.jpg",
-      "title": "Our Initiative",
-      "content": "Providing financial aid for dialysis, cancer treatment, and pediatric care at government hospitals throughout the state."
-    },
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical2.jpg",
-      "title": "Impact",
-      "content": "Making healthcare accessible to those who cannot afford treatment, reducing medical poverty, and improving health outcomes."
-    },
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical3.jpg",
-      "title": "Partners",
-      "content": "Government hospitals, medical professionals, and healthcare NGOs."
-    },
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical4.jpg",
-      "title": "Patient Stories",
-      "content": "Real stories of families who received timely medical support and overcame health challenges."
-    },
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical5.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical6.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical7.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical8.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical9.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical10.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical11.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical12.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical13.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical14.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical15.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical16.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical17.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical18.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical19.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical20.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical21.jpg",
-      "title": "Our Initiative",
-      "content": "Providing financial aid for dialysis, cancer treatment, and pediatric care at government hospitals throughout the state."
-    },
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical22.jpg",
-      "title": "Impact",
-      "content": "Making healthcare accessible to those who cannot afford treatment, reducing medical poverty, and improving health outcomes."
-    },
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical23.jpg",
-      "title": "Partners",
-      "content": "Government hospitals, medical professionals, and healthcare NGOs."
-    },
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical24.jpg",
-      "title": "Patient Stories",
-      "content": "Real stories of families who received timely medical support and overcame health challenges."
-    },
-    {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical25.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical26.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical27.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical28.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical29.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical30.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical31.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical22.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical33.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical34.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical35.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical36.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical37.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    },
-     {
-      "image": "/images/pearl-projects/Blind_and_medical/Blind_and_medical38.jpg",
-      "title": "Emergency Fund",
-      "content": "Maintaining an emergency medical fund to provide immediate assistance for critical cases."
-    }
+  "title": "Blind & Medical Support",
+  "summary": "Reshma Foundation, in collaboration with Lions Club and with the support of Manivannan, has transformed lives through medical camps, dialysis assistance, hospital equipment donations, disability support, and healthcare initiatives benefiting hundreds of individuals. The foundation remains committed to accessible healthcare and improving the quality of life for vulnerable communities.",
+  "description": "Reshma Foundation, in collaboration with Lions Club and under the leadership and support of Manivannan, has continuously worked toward improving healthcare access and quality of life for vulnerable communities. Large-scale medical camps were organized in Villivakkam, benefiting nearly 600 individuals through general health screenings, diabetes testing, eye examinations, and free medicines. The foundation has also extended long-term support for dialysis patients through financial assistance, donations to dialysis centers, and contributions of medical equipment including dialysis and electrolyzer machines to government hospitals. Livelihood assistance was provided to visually challenged individuals through materials that support income generation, while mobility and dignity were restored to a young student through the provision of an artificial leg. These initiatives reflect Reshma Foundation’s commitment to accessible healthcare, medical relief, and inclusive support for persons with disabilities.",
+  "images": [
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical1.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical2.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical3.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical4.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical5.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical6.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical7.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical8.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical9.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical10.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical11.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical12.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical13.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical14.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical15.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical16.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical17.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical18.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical19.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical20.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical21.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical22.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical23.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical24.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical25.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical26.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical27.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical28.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical29.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical30.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical31.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical33.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical34.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical35.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical36.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical37.jpg",
+    "/images/pearl-projects/Blind_and_medical/Blind_and_medical38.jpg"
   ]
 }

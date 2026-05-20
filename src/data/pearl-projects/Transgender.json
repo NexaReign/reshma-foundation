@@ -1,92 +1,25 @@
 {
   "id": "Transgender",
-  "title": "Help to Transgender",
-  "summary": "Supporting children with school supplies, enrollment help, and ongoing education support.",
-  "sections": [
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender1.jpg",
-      "title": "Our Initiative",
-      "content": "Re-enrolling students who dropped out during the pandemic and providing uniforms, books, and bags to underprivileged school children."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender2.jpg",
-      "title": "Impact",
-      "content": "Ensuring educational continuity, reducing dropout rates, and creating equal opportunities for academic success."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender3.jpg",
-      "title": "Partners",
-      "content": "Schools, teachers, educational foundations, and local governments."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender4.jpg",
-      "title": "School Support",
-      "content": "Providing comprehensive educational materials and support to ensure every child has access to quality education."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender5.jpg",
-      "title": "Our Initiative",
-      "content": "Re-enrolling students who dropped out during the pandemic and providing uniforms, books, and bags to underprivileged school children."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender6.jpg",
-      "title": "Impact",
-      "content": "Ensuring educational continuity, reducing dropout rates, and creating equal opportunities for academic success."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender7.jpg",
-      "title": "Partners",
-      "content": "Schools, teachers, educational foundations, and local governments."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender8.jpg",
-      "title": "School Support",
-      "content": "Providing comprehensive educational materials and support to ensure every child has access to quality education."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender9.jpg",
-      "title": "Our Initiative",
-      "content": "Re-enrolling students who dropped out during the pandemic and providing uniforms, books, and bags to underprivileged school children."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender10.jpg",
-      "title": "Impact",
-      "content": "Ensuring educational continuity, reducing dropout rates, and creating equal opportunities for academic success."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender11.jpg",
-      "title": "Partners",
-      "content": "Schools, teachers, educational foundations, and local governments."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender12.jpg",
-      "title": "School Support",
-      "content": "Providing comprehensive educational materials and support to ensure every child has access to quality education."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender13.jpg",
-      "title": "School Support",
-      "content": "Providing comprehensive educational materials and support to ensure every child has access to quality education."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender14.jpg",
-      "title": "Our Initiative",
-      "content": "Re-enrolling students who dropped out during the pandemic and providing uniforms, books, and bags to underprivileged school children."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender15.jpg",
-      "title": "Impact",
-      "content": "Ensuring educational continuity, reducing dropout rates, and creating equal opportunities for academic success."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender16.jpg",
-      "title": "Partners",
-      "content": "Schools, teachers, educational foundations, and local governments."
-    },
-    {
-      "image": "/images/pearl-projects/Transgender/Transgender17.jpg",
-      "title": "School Support",
-      "content": "Providing comprehensive educational materials and support to ensure every child has access to quality education."
-    }
+  "title": "Transgender Welfare & Empowerment",
+  "summary": "Reshma Foundation empowers the transgender community through livelihood assistance, self-employment support, welfare programs, and social initiatives that promote dignity, independence, and equal opportunities.",
+  "description": "Reshma Foundation believes in creating equal opportunities and empowering transgender individuals through social support, livelihood assistance, and community recognition. Special celebrations were organized to honor the transgender community during festive occasions by providing sarees, groceries, sweets, and essential supplies. Support was extended to strengthen economic independence through assistance for opening photocopy and small business centers, goat farming initiatives, and the distribution of sewing machines to encourage self-employment. In addition, efforts contributing toward mobility and inclusion enabled driving license support for nearly 100 transgender individuals. Through these programs, Reshma Foundation continues to promote dignity, independence, and social empowerment for the transgender community.",
+  "images": [
+    "/images/pearl-projects/Transgender/Transgender1.jpg",
+    "/images/pearl-projects/Transgender/Transgender2.jpg",
+    "/images/pearl-projects/Transgender/Transgender3.jpg",
+    "/images/pearl-projects/Transgender/Transgender4.jpg",
+    "/images/pearl-projects/Transgender/Transgender5.jpg",
+    "/images/pearl-projects/Transgender/Transgender6.jpg",
+    "/images/pearl-projects/Transgender/Transgender7.jpg",
+    "/images/pearl-projects/Transgender/Transgender8.jpg",
+    "/images/pearl-projects/Transgender/Transgender9.jpg",
+    "/images/pearl-projects/Transgender/Transgender10.jpg",
+    "/images/pearl-projects/Transgender/Transgender11.jpg",
+    "/images/pearl-projects/Transgender/Transgender12.jpg",
+    "/images/pearl-projects/Transgender/Transgender13.jpg",
+    "/images/pearl-projects/Transgender/Transgender14.jpg",
+    "/images/pearl-projects/Transgender/Transgender15.jpg",
+    "/images/pearl-projects/Transgender/Transgender16.jpg",
+    "/images/pearl-projects/Transgender/Transgender17.jpg"
   ]
 }

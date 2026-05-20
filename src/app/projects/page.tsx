@@ -21,27 +21,33 @@ export default function Gallery() {
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {galleryProjects.flatMap(project =>
-            project.sections.map((section, index) => (
-              <div key={`${project.id}-${index}`} className="rounded-3xl overflow-hidden shadow-sm bg-white relative group">
-                <div className="aspect-square relative">
-                  <ImagePreview src={section.image} alt={`${project.title} - ${section.title}`} className="w-full h-full">
-                    <Image
-                      src={section.image}
-                      alt={`${project.title} - ${section.title}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </ImagePreview>
-                  <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-6 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
-                    <h3 className="text-xl font-semibold mb-2">{section.title}</h3>
-                    <p className="text-sm leading-6">{section.content}</p>
-                  </div>
-                </div>
+        <div className="space-y-20">
+          {galleryProjects.map((project) => (
+            <section key={project.id} className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
+              <div className="mb-10">
+                <p className="text-sm uppercase tracking-[0.35em] text-slate-500 mb-3">{project.title === 'School Gallery' ? 'School' : 'Media'}</p>
+                <h2 className="text-3xl font-semibold text-slate-950 mb-4">{project.title}</h2>
+                <p className="text-lg leading-8 text-slate-700 max-w-3xl">{project.description}</p>
               </div>
-            ))
-          )}
+
+              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {project.images.map((image, index) => (
+                  <div key={`${project.id}-${index}`} className="overflow-hidden rounded-[1.75rem] bg-slate-100 shadow-sm transition hover:shadow-md">
+                    <div className="aspect-square relative">
+                      <ImagePreview src={image} alt={`${project.title} image ${index + 1}`} className="w-full h-full">
+                        <Image
+                          src={image}
+                          alt={`${project.title} image ${index + 1}`}
+                          fill
+                          className="object-cover"
+                        />
+                      </ImagePreview>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          ))}
         </div>
       </section>
 
