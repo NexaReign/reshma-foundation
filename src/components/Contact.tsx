@@ -1,3 +1,4 @@
+
 export default function Contact() {
   return (
     <section id="contact" className="px-6 py-16 md:px-12">
@@ -16,7 +17,7 @@ export default function Contact() {
           <div className="space-y-5 rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
             <div>
               <h3 className="text-xl font-semibold text-slate-950">Contact details</h3>
-              <p className="mt-3 text-slate-700">Phone: +91 98765 43210</p>
+              <p className="mt-3 text-slate-700">contactData.</p>
               <p className="text-slate-700">Email: info@reshmafoundation.org</p>
             </div>
             <div>
