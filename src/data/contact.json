@@ -1,0 +1,50 @@
+{
+  "phone": "+91 98406 77330",
+  "email": "reshmafoundation.offical@gmail.com",
+  "address": {
+    "line1": "77/78 S.S.Ram Rathna Apts",
+    "line2": "Anjugam Nagar 17th Street",
+    "line3": "Kolathur, Chennai - 600099",
+    "full": "77/78 S.S.Ram Rathna Apts, Anjugam Nagar 17th Street, Kolathur, Chennai - 600099"
+  },
+  "location": {
+    "latitude": 13.1218,
+    "longitude": 80.2190,
+    "coordinates": "13°07'18.3\"N 80°13'08.6\"E"
+  },
+  "socialMedia": [
+    {
+      "name": "Facebook",
+      "url": "",
+      "status": "coming_soon",
+      "icon": "facebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "",
+      "status": "coming_soon",
+      "icon": "instagram"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@kavingarmanivannan7196",
+      "status": "active",
+      "icon": "youtube",
+      "label": "Kavingar Manivannan"
+    }
+  ],
+  "officeHours": [
+    {
+      "day": "Monday - Friday",
+      "hours": "9:00 AM - 6:00 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "9:00 AM - 2:00 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ]
+}
