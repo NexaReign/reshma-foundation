@@ -1,5 +1,5 @@
 const slides = [
-  "Planting 200,000 palm seeds across Tamil Nadu to protect soil and water.",
+  "Planting 500,000 palm seeds across Tamil Nadu to protect soil and water.",
   "Empowering transgender and visually challenged communities through jobs and entrepreneurship.",
   "Delivering essential food support to orphanages, elderly homes and the homeless.",
   "Providing financial aid for dialysis, cancer care and pediatric support.",

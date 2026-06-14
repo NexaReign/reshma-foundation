@@ -16,7 +16,7 @@ export default function FounderHero() {
 
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
             <button className="rounded-full bg-[#fb7185] px-5 py-3 text-white font-semibold shadow">Explore Journey</button>
-            <button className="rounded-full border border-slate-300 px-5 py-3 bg-white font-semibold">Community Impact</button>
+            {/* <button className="rounded-full border border-slate-300 px-5 py-3 bg-white font-semibold">Community Impact</button> */}
           </div>
 
           <FadeIn>

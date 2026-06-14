@@ -5,150 +5,105 @@ import DonateForm from "@/components/DonateForm";
 
 export default function Donate() {
   return (
-    <main className="min-h-screen bg-[#fff7ed] text-slate-950">
+    <main className="min-h-screen bg-gradient-to-b from-[#fff7ed] to-[#fff3e0] text-slate-950">
       <Header />
 
-      <section className="mx-auto max-w-6xl px-6 py-16 md:px-12">
-        <div className="mb-10 flex items-center gap-4">
-          <div className="h-1 w-16 rounded-full bg-[#f97316]" />
-          <h1 className="text-4xl font-semibold text-slate-950">Support Our Mission</h1>
-        </div>
-
-        <div className="mb-12">
-          <p className="text-lg leading-8 text-slate-700 max-w-3xl">
-            Your generosity makes a real difference in the lives of thousands across Tamil Nadu.
-            Every contribution, no matter the size, helps us continue our work in education,
-            healthcare, hunger relief, and community empowerment.
-          </p>
-        </div>
-
-        <div className="grid gap-8 lg:grid-cols-2">
-          <div className="space-y-8">
-            <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
-              <h2 className="text-2xl font-semibold text-slate-950 mb-6">Ways to Donate</h2>
-              <div className="space-y-6">
-                <div className="rounded-3xl bg-gradient-to-r from-[#fef3c7] to-[#fde68a] p-6">
-                  <h3 className="text-lg font-semibold text-slate-950 mb-2">UPI Transfer</h3>
-                  <p className="text-slate-700 mb-3">Instant and secure digital payments</p>
-                  <div className="bg-white rounded-2xl p-4">
-                    <p className="font-mono text-lg text-slate-950">reshma.foundation@oksbi</p>
-                  </div>
-                </div>
-
-                <div className="rounded-3xl bg-gradient-to-r from-[#fce7f3] to-[#fbcfe8] p-6">
-                  <h3 className="text-lg font-semibold text-slate-950 mb-2">Bank Transfer</h3>
-                  <p className="text-slate-700 mb-3">Direct bank account transfers</p>
-                  <div className="bg-white rounded-2xl p-4 space-y-2">
-                    <p><span className="font-medium">Account Name:</span> Reshma Foundation</p>
-                    <p><span className="font-medium">Account Number:</span> 1234567890</p>
-                    <p><span className="font-medium">IFSC Code:</span> SBIN0001234</p>
-                    <p><span className="font-medium">Bank:</span> State Bank of India</p>
-                  </div>
-                </div>
-
-                <div className="rounded-3xl bg-gradient-to-r from-[#e0f2fe] to-[#bae6fd] p-6">
-                  <h3 className="text-lg font-semibold text-slate-950 mb-2">Online Payment</h3>
-                  <p className="text-slate-700 mb-3">Credit/Debit cards and net banking</p>
-                  <button className="w-full rounded-2xl bg-[#0f172a] px-6 py-3 text-white font-semibold transition hover:bg-[#1e293b]">
-                    Donate Online Now
-                  </button>
-                </div>
-              </div>
+      <section className="mx-auto max-w-7xl px-6 py-20 md:px-12">
+        <div className="grid gap-12 lg:grid-cols-12 items-start">
+          <div className="lg:col-span-6">
+            <div className="mb-6 inline-flex items-center gap-3">
+              <div className="h-1 w-16 rounded-full bg-gradient-to-r from-[#f97316] to-[#fb923c]" />
+              <span className="text-sm font-medium text-slate-700">Join the movement</span>
             </div>
 
-            <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
-              <h2 className="text-2xl font-semibold text-slate-950 mb-6">Tax Benefits</h2>
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <div className="h-6 w-6 rounded-full bg-[#10b981] flex items-center justify-center mt-0.5">
-                    <span className="text-white text-sm">✓</span>
-                  </div>
-                  <div>
-                    <p className="font-medium text-slate-950">80G Tax Exemption</p>
-                    <p className="text-slate-700 text-sm">Eligible for tax deduction under Section 80G of Income Tax Act</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="h-6 w-6 rounded-full bg-[#10b981] flex items-center justify-center mt-0.5">
-                    <span className="text-white text-sm">✓</span>
-                  </div>
-                  <div>
-                    <p className="font-medium text-slate-950">Receipt Provided</p>
-                    <p className="text-slate-700 text-sm">Official donation receipt issued for all contributions</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="h-6 w-6 rounded-full bg-[#10b981] flex items-center justify-center mt-0.5">
-                    <span className="text-white text-sm">✓</span>
-                  </div>
-                  <div>
-                    <p className="font-medium text-slate-950">Transparent Usage</p>
-                    <p className="text-slate-700 text-sm">Regular updates on how your donation is utilized</p>
-                  </div>
-                </div>
+            <h1 className="text-5xl font-extrabold leading-tight text-slate-950 mb-6">
+              Power Change with Every Contribution
+            </h1>
+
+            <p className="text-lg text-slate-700 max-w-xl leading-relaxed mb-8">
+              Your generosity helps fund education, healthcare, hunger relief and community projects across
+              Tamil Nadu. Fast, secure donations let us reach more people — see live updates below.
+            </p>
+
+            <div className="flex flex-wrap gap-4">
+              <div className="rounded-2xl bg-white/60 backdrop-blur px-6 py-4 shadow-md">
+                <p className="text-sm text-slate-600">Projects Funded</p>
+                <p className="text-2xl font-semibold text-slate-900">128</p>
+              </div>
+              <div className="rounded-2xl bg-white/60 backdrop-blur px-6 py-4 shadow-md">
+                <p className="text-sm text-slate-600">Meals Served</p>
+                <p className="text-2xl font-semibold text-slate-900">54,000+</p>
+              </div>
+              <div className="rounded-2xl bg-white/60 backdrop-blur px-6 py-4 shadow-md">
+                <p className="text-sm text-slate-600">Volunteers</p>
+                <p className="text-2xl font-semibold text-slate-900">1,300+</p>
               </div>
             </div>
           </div>
 
-          <div className="space-y-8">
-            <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
-              <h2 className="text-2xl font-semibold text-slate-950 mb-6">Recent Donors</h2>
-                <DonorsList />
-              <p className="text-sm text-slate-600 mt-4 text-center">
-                Thank you to all our generous donors for making a difference!
-              </p>
-            </div>
+          <div className="lg:col-span-6">
+            <div className="relative rounded-3xl bg-gradient-to-tr from-white to-white/80 p-6 shadow-2xl">
+              <div className="absolute -left-6 -top-6 h-20 w-20 rounded-full bg-gradient-to-r from-[#f97316] to-[#fb7185] opacity-30 blur-3xl" />
+              <h2 className="text-2xl font-semibold text-slate-950 mb-4">Donate Online</h2>
+              <p className="text-sm text-slate-600 mb-6">Secure payment powered by Razorpay — instant receipts.</p>
 
-            <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
-              <h2 className="text-2xl font-semibold text-slate-950 mb-6">Impact of Your Donation</h2>
-              <div className="space-y-4">
-                <div className="text-center">
-                  <p className="text-3xl font-bold text-[#f97316]">₹500</p>
-                  <p className="text-slate-700">Provides school supplies for one child for a month</p>
-                </div>
-                <div className="text-center">
-                  <p className="text-3xl font-bold text-[#f97316]">₹1,000</p>
-                  <p className="text-slate-700">Covers dialysis treatment for one session</p>
-                </div>
-                <div className="text-center">
-                  <p className="text-3xl font-bold text-[#f97316]">₹2,500</p>
-                  <p className="text-slate-700">Supplies food packages for a family for a week</p>
-                </div>
-                <div className="text-center">
-                  <p className="text-3xl font-bold text-[#f97316]">₹10,000</p>
-                  <p className="text-slate-700">Plants 50 palm trees for environmental conservation</p>
-                </div>
+              <div className="rounded-2xl bg-slate-50 p-6">
+                <DonateForm />
               </div>
+
+              <div className="mt-6 text-xs text-slate-500">We use secure encryption and never share your payment details.</div>
             </div>
           </div>
         </div>
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-2">
-          <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
-            <h2 className="text-2xl font-semibold text-slate-950 mb-6">Donate Online</h2>
-            <DonateForm />
+        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+          <div className="lg:col-span-2 rounded-3xl bg-white p-6 shadow-md">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-lg font-semibold">Recent Donors</h3>
+              <p className="text-sm text-slate-500">Live updates from our donations table</p>
+            </div>
+            <DonorsList />
           </div>
-          <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
-            <h2 className="text-2xl font-semibold text-slate-950 mb-6">How donations help</h2>
-            <div className="space-y-4">
-              <div className="text-center">
-                <p className="text-3xl font-bold text-[#f97316]">₹500</p>
-                <p className="text-slate-700">Provides school supplies for one child for a month</p>
+
+          <aside className="rounded-3xl bg-gradient-to-br from-white/80 via-[#fff7eb] to-white/90 p-6 shadow-2xl border border-white/30">
+            <div className="flex items-start justify-between">
+              <div>
+                <h4 className="text-md font-semibold mb-1">Other Ways to Help</h4>
+                <p className="text-xs text-slate-500">Choose a simple way to support our work — every bit helps.</p>
               </div>
-              <div className="text-center">
-                <p className="text-3xl font-bold text-[#f97316]">₹1,000</p>
-                <p className="text-slate-700">Covers dialysis treatment for one session</p>
+              {/* <div className="text-sm text-slate-400">Trusted & Secure</div> */}
+            </div>
+
+            <div className="mt-4 grid gap-3">
+              <div className="flex items-center gap-4 rounded-2xl bg-gradient-to-r from-[#fffaf0] to-[#fff5eb] p-4 border border-orange-50 shadow-sm">
+                <div className="h-10 w-10 flex-none rounded-lg bg-gradient-to-tr from-[#fb923c] to-[#f97316] flex items-center justify-center text-white font-bold">UPI</div>
+                <div className="flex-1">
+                  <div className="text-sm font-medium text-slate-900">UPI</div>
+                  <div className="text-xs text-slate-600 font-mono">reshma.foundation@oksbi</div>
+                </div>
+                {/* <div className="text-xs text-slate-500">Scan or pay</div> */}
               </div>
-              <div className="text-center">
-                <p className="text-3xl font-bold text-[#f97316]">₹2,500</p>
-                <p className="text-slate-700">Supplies food packages for a family for a week</p>
+
+              <div className="flex items-center gap-4 rounded-2xl bg-gradient-to-r from-[#f8fafc] to-[#f1f5f9] p-4 border border-slate-100 shadow-sm">
+                <div className="h-10 w-10 flex-none rounded-lg bg-gradient-to-tr from-[#60a5fa] to-[#3b82f6] flex items-center justify-center text-white font-bold">Bank</div>
+                <div className="flex-1">
+                  <div className="text-sm font-medium text-slate-900">Bank Transfer</div>
+                  <div className="text-xs text-slate-600">State Bank of India — SBIN0001234</div>
+                </div>
+                <div className="text-xs text-slate-500">IFSC: SBIN0001234</div>
               </div>
-              <div className="text-center">
-                <p className="text-3xl font-bold text-[#f97316]">₹10,000</p>
-                <p className="text-slate-700">Plants 50 palm trees for environmental conservation</p>
+
+              <div className="rounded-2xl p-4 bg-gradient-to-tr from-[#ffffff] to-[#fffbf0] border border-white/30 shadow-sm">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="text-sm font-medium text-slate-900">Volunteer or Sponsor</div>
+                    <div className="text-xs text-slate-600">Partner with us on projects or sponsor a child’s education.</div>
+                  </div>
+                  <a href="/contact" className="ml-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#f97316] to-[#fb7185] px-3 py-1 text-white text-xs font-semibold shadow">Contact Us</a>
+                </div>
               </div>
             </div>
-          </div>
+          </aside>
         </div>
       </section>
 

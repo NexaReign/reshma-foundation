@@ -5,8 +5,14 @@ import { supabaseServer } from '@/lib/supabaseServer';
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { razorpay_order_id, razorpay_payment_id, razorpay_signature, name, email, amount, method } = body;
-    const keySecret = process.env.RAZORPAY_KEY_SECRET || '';
+    const { razorpay_order_id, razorpay_payment_id, razorpay_signature, name, email, amount, method } = body || {};
+    if (!razorpay_order_id || !razorpay_payment_id || !razorpay_signature) {
+      return NextResponse.json({ error: 'Missing required payment fields' }, { status: 400 });
+    }
+    const keySecret = process.env.RAZORPAY_KEY_SECRET;
+    if (!keySecret) {
+      return NextResponse.json({ error: 'Razorpay key secret is not configured on the server' }, { status: 500 });
+    }
 
     const generated_signature = crypto
       .createHmac('sha256', keySecret)

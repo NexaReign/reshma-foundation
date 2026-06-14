@@ -4,9 +4,9 @@ import { supabaseServer } from '@/lib/supabaseServer';
 
 export async function POST(req: Request) {
   try {
-    const webhookSecret = process.env.RAZORPAY_WEBHOOK_SECRET || '';
+    const webhookSecret = process.env.RAZORPAY_WEBHOOK_SECRET;
     if (!webhookSecret) {
-      return NextResponse.json({ error: 'Webhook secret is not configured' }, { status: 500 });
+      return NextResponse.json({ error: 'Razorpay webhook secret is not configured on the server' }, { status: 500 });
     }
 
     const signature = req.headers.get('x-razorpay-signature') || '';

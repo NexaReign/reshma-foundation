@@ -1,11 +1,13 @@
 import { createClient } from '@supabase/supabase-js';
 
 const url = process.env.SUPABASE_URL || '';
-const key = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
+// Accept either SERVICE_ROLE_KEY (recommended) or SECRET_KEY for compatibility
+const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SECRET_KEY || '';
 
 if (!url || !key) {
-  // Do not throw in production; keep it safe but log for development.
-  console.warn('Supabase URL or SERVICE_ROLE_KEY not set.');
+  throw new Error(
+    'SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY (or SUPABASE_SECRET_KEY) must be configured in .env.local or your deployed environment.'
+  );
 }
 
 export const supabaseServer = createClient(url, key, {
