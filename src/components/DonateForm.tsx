@@ -37,7 +37,7 @@ export default function DonateForm() {
         return;
       }
 
-      const order = data.order;
+      const order = data.order ?? { id: data.order_id, amount: data.amount, currency: data.currency };
       const keyId = data.keyId || process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID;
 
       await loadScript('https://checkout.razorpay.com/v1/checkout.js');

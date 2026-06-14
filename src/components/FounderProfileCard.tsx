@@ -21,10 +21,6 @@ export default function FounderProfileCard() {
           <p className="mt-3 text-slate-700">Birth place: {profile.birthPlace}</p>
           <p className="mt-1 text-slate-700">Current: {profile.currentJourney}</p>
 
-          <div className="mt-4">
-            <label className="block text-sm font-medium text-slate-600">Upload Founder Photo</label>
-            <input type="file" accept="image/*" className="mt-2 block w-full text-sm text-slate-600" />
-          </div>
         </div>
       </div>
     </FadeIn>
