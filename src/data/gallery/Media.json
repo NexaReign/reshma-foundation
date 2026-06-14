@@ -1,43 +1,13 @@
 {
   "id": "Media",
   "title": "Media Gallery",
-  "description": "Photos and coverage from our media outreach, events, and campaigns.",
-  "image": "/images/gallery/Media/Media1.jpg",
-  "sections": [
-    {
-      "image": "/images/gallery/Media/Media1.jpg",
-      "title": "Campaign Launch",
-      "content": "A media spotlight on our community outreach and public awareness events."
-    },
-    {
-      "image": "/images/gallery/Media/Media2.jpg",
-      "title": "Campaign Launch",
-      "content": "A media spotlight on our community outreach and public awareness events."
-    },
-    {
-      "image": "/images/gallery/Media/Media3.jpg",
-      "title": "Community Stories",
-      "content": "Captured moments that highlight the people and progress behind our initiatives."
-    },
-    {
-      "image": "/images/gallery/Media/Media4.jpg",
-      "title": "Event Coverage",
-      "content": "Photographs from awareness drives, fundraisers, and volunteer activities."
-    },
-    {
-      "image": "/images/gallery/Media/Media5.jpg",
-      "title": "Campaign Launch",
-      "content": "A media spotlight on our community outreach and public awareness events."
-    },
-    {
-      "image": "/images/gallery/Media/Media6.jpg",
-      "title": "Community Stories",
-      "content": "Captured moments that highlight the people and progress behind our initiatives."
-    },
-    {
-      "image": "/images/gallery/Media/Media7.jpg",
-      "title": "Event Coverage",
-      "content": "Photographs from awareness drives, fundraisers, and volunteer activities."
-    }
+  "description": "Reshma Foundation’s social initiatives and humanitarian efforts have been strengthened through continuous public outreach and awareness support. Media collaborations and community engagement have helped amplify the impact of welfare programs, enabling broader visibility and encouraging collective participation in social causes. Through strong partnerships and consistent public communication, Reshma Foundation continues to build awareness around healthcare, education, environmental protection, hunger relief, and community empowerment, ensuring that every initiative reaches and benefits the people who need it most.",
+  "images": [
+    "/images/gallery/Media/Media2.jpg",
+    "/images/gallery/Media/Media3.jpg",
+    "/images/gallery/Media/Media4.jpg",
+    "/images/gallery/Media/Media5.jpg",
+    "/images/gallery/Media/Media6.jpg",
+    "/images/gallery/Media/Media7.jpg"
   ]
 }

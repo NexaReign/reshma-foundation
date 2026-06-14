@@ -27,38 +27,19 @@ export default async function PearlProjectPage({ params }: { params: Promise<{ i
       <Header />
 
       <section className="mx-auto max-w-6xl px-6 py-16 md:px-12">
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-semibold text-slate-950 mb-4">{project.title}</h1>
-          <p className="text-lg leading-8 text-slate-700 max-w-3xl mx-auto">{project.sections[0]?.content || "Learn more about our initiatives."}</p>
+        <div className="text-center mb-12">
+          <p className="uppercase tracking-[0.4em] text-sm font-semibold text-slate-500 mb-6">Pearl Project</p>
+          <h1 className="text-5xl font-semibold text-slate-950 mb-6">{project.title}</h1>
+          <p className="mx-auto max-w-3xl text-lg leading-8 text-slate-700">{project.description}</p>
         </div>
 
-        <div className="space-y-16">
-          {project.sections.map((section, index) => (
-            <article key={index} className={`flex flex-col lg:flex-row ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 items-center`}>
-              <div className="w-full lg:w-1/2">
-                <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-lg">
-                  <ImagePreview src={section.image} alt={`${project.title} - ${section.title}`}>
-                    <Image
-                      src={section.image}
-                      alt={`${project.title} - ${section.title}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </ImagePreview>
-                </div>
+        <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+          {project.images.map((image, index) => (
+            <div key={image} className="overflow-hidden rounded-[2rem] bg-white shadow-sm transition hover:shadow-md">
+              <div className="aspect-square relative">
+                <ImagePreview src={image} alt={`${project.title} image ${index + 1}`} className="h-full w-full" />
               </div>
-              <div className="lg:w-1/2 space-y-6">
-                <div>
-                  <h3 className="text-2xl font-semibold text-slate-950 mb-2">{section.title}</h3>
-                  <p className="text-slate-700 leading-7">{section.content}</p>
-                </div>
-                {index === 0 && (
-                  <div className="text-sm text-slate-500 mt-4">
-                    Section {index + 1} of {project.sections.length}
-                  </div>
-                )}
-              </div>
-            </article>
+            </div>
           ))}
         </div>
       </section>

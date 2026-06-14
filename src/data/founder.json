@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "name": "Dr. Lion K. Manivannan",
+    "subtitle": "Founder • Humanitarian • Former Lions Governor • Poet • Doctor",
+    "tagline": "The Confluence of Common People",
+    "quote": "Giving to the poor is true charity; all other giving expects a return.",
+    "quoteBy": "— Inspired by Thiruvalluvar",
+    "badges": [
+      { "label": "38+ Years Service" },
+      { "label": "500K Palm Seeds" },
+      { "label": "20+ Years Medical Camps" },
+      { "label": "Community Welfare Leader" }
+    ],
+    "founderPhoto": "/images/founderImg.jpeg"
+  },
+  "profile": {
+    "name": "Dr. Lion K. Manivannan",
+    "roles": ["Former District Governor – Lions Club", "Poet", "Doctor", "Social Reformer"],
+    "birthPlace": "Keeramangalam, Pudukkottai District, Tamil Nadu",
+    "currentJourney": "Businessman in Chennai and humanitarian leader"
+  },
+  "timeline": [
+    { "title": "Early Life", "content": "Born in a humble family in Keeramangalam." },
+    { "title": "Professional Growth", "content": "Moved to Chennai and became businessman." },
+    { "title": "Service Journey", "content": "Joined the Lions movement." },
+    { "title": "Leadership", "content": "Served as Lions Governor." },
+    { "title": "Reshma Foundation", "content": "Established people-centric initiatives." },
+    { "title": "Humanitarian Legacy", "content": "Dedicated life for common people." }
+  ],
+  "impact": {
+    "Palm": {
+      "title": "Land of Palm Trees",
+      "content": "Planted around 500,000 Palm seeds across Tamil Nadu to prevent extinction and protect soil fertility."
+    },
+    "education": {
+      "title": "Educational Support",
+      "content": "Built school toilet facilities worth ₹4 Lakhs and provided scholarships for over 30 years."
+    },
+    "marginalized": {
+      "title": "Marginalized Community Upliftment",
+      "content": "Supported transgender licenses, entrepreneur support, visually impaired assistance, and Irular family goat rearing."
+    },
+    "medical": {
+      "title": "Medical Service",
+      "content": "Medical assistance, 20+ years of blood & eye donation camps, and healthcare support."
+    }
+  },
+  "donationMovement": {
+    "title": "Body and Organ Donation Awareness Movement",
+    "quote": "He parted with his gold, He emptied his wealth, In the end, he gave his very self, And offered life as his final act of generosity...That man was Karna.",
+    "content": "Dr. K. Manivannan pledged body donation to Keelpak Medical College, Chennai and runs awareness programs for body and organ donation."
+  },
+  "hungerRelief": {
+    "title": "Eradicating Hunger and Poverty",
+    "content": "For 35 months as of now (May 2026) , monthly grocery support (rice, dal, oil, essentials) was provided to poor families. And this will continue as long as there are hungry people to feed."
+  },
+  "philosophy": {
+    "title": "Humanity Before Recognition",
+    "content": "Service without expectation. Dignity for all. Empowerment over charity. Avoid publicity. Impact over fame.",
+    "quote": "He became a shelter for ordinary people."
+  },
+  "achievements": [
+    { "label": "Years of Service", "value": 38 },
+    { "label": "Palm Seeds", "value": 500000 },
+    { "label": "Transgender Support", "value": 60 },
+    { "label": "Irular Families", "value": 50 },
+    { "label": "Medical Camps", "value": 20 }
+  ],
+  "legacyParagraphLines": [
+    "Reshma Foundation   (The Confluence of Common People)   A great personality who was born into a simple family, gradually rose in his profession, and stands today as a fortress for the common people.",
+    "Born in Keeramangalam, Pudukkottai District, he became a businessman in the capital city of Chennai.",
+    "He is a former Governor of the pioneering service organization LIONS Club, a poet, and a Doctor—Lion K. Manivannan.",
+    "As a social worker, nature enthusiast, a beloved son to transgender people, and a protector of the visually impaired, here are some of the service initiatives through which he has wiped the tears of common people and lent a helping hand:",
+    "\"Giving to the poor is true charity; all other giving has an expectation of return.\" — Acting in accordance with these words proposed by our great forefather Valluvan.",
+    "The Land of Palm Trees (Panaimara Desam) The Palm tree, possessing immense strength, is the state tree of Tamil Nadu and serves as a \"Kalpavriksha\" (wish-fulfilling tree) intertwined with the Tamil way of life, yielding benefits from root to tip.",
+    "To save this Palm tree from extinction and to protect soil fertility, he undertook the massive task of planting around 500,000 Palm seeds in various parts of Tamil Nadu through his Reshma Foundation.",
+    "This nature enthusiast, Lion K. Manivannan, is creating a \"Land of Palm Trees\" out of his love for them.",
+    "His Contributions to Schools: He built hygienic toilet facilities at an estimated cost of about 4 lakhs in government schools to benefit poor and needy students.",
+    "For over 30 years, this compassionate man has been providing educational scholarships to underprivileged students, lighting the lamp of education in their lives.",
+    "Upliftment of Marginalized People: To bring a renaissance into the lives of marginalized individuals ignored by society, he has done the following:",
+    "He properly procured driving licenses for over 60 transgender individuals, a first in Tamil Nadu.",
+    "To improve their livelihoods, he helped them set up numerous tiffin centers, xerox shops, and provided goats for rearing.",
+    "He provided the necessary capital and equipment to many visually impaired people to sell items like peanut candy and pens on trains, dispelling the darkness in their lives.",
+    "He provided goats for rearing to over 50 Irular families, laying a strong foundation for their upliftment.",
+    "The whole town will loudly proclaim and praise our beloved Dr. Lion K. Manivannan for these deeds.",
+    "Let's Help... Let's Save Lives...",
+    "For those lacking good health and financial resources, he provides medical assistance to save their lives.",
+    "For over 20 years, he has conducted numerous blood donation and eye donation camps.",
+    "The collective voice of the many people who have benefited from him asserts that our dynamic Lion Manivannan is an exceptionally capable field worker of this initiative.",
+    "Body and Organ Donation Awareness Movement: \"He gave gold... he gave wealth... finally he gave himself... he gave his very life.\"",
+    "They say this about Karna. Proving this true, the hero of countless services, our Lion Manivannan, has pledged to donate his body to the medical students of Keelpak Medical College, Chennai.",
+    "This act clearly demonstrates his noble heart and service-mindedness.",
+    "Furthermore, he actively runs a Body and Organ Donation Awareness Movement.",
+    "Eradicating Hunger: Keeping in mind that feeding the hungry is a supreme virtue, for 35 months till May 2026 (this will continue) , through the Reshma Foundation, he has been providing monthly grocery kits containing rice, lentils, oil, and other essentials to many poor families.",
+    "Thus, throughout his life, he has lit up the lives of the poor and marginalized, becoming a confluence for the common people.",
+    "It is no exaggeration to say that the charitable deeds of the founder of Reshma Foundation, Former Governor, Poet, and Dr. K. Manivannan—who has stood out uniquely in service for the past 38 years—shine brightly like a flame in the hearts of many commoners."
+  ],
+  "gallery": {
+    "images": [
+      "/images/gallery/1.jpg",
+      "/images/gallery/2.jpg",
+      "/images/gallery/3.jpg"
+    ]
+  }
+}

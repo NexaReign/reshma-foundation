@@ -72,23 +72,15 @@ export interface PearlProject {
   id: string;
   title: string;
   summary: string;
-  sections: {
-    image: string;
-    title: string;
-    content: string;
-  }[];
+  description: string;
+  images: string[];
 }
 
 export interface GalleryProject {
   id: string;
   title: string;
   description: string;
-  image: string;
-  sections: {
-    image: string;
-    title: string;
-    content: string;
-  }[];
+  images: string[];
 }
 
 // Import individual pearl project JSON files

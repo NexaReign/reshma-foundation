@@ -55,9 +55,9 @@ export default function Home() {
                 <article className={`rounded-3xl border border-slate-200 bg-white overflow-hidden shadow-sm transition hover:shadow-md flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                   <div className="w-full lg:w-1/2">
                     <div className="aspect-[4/3] relative">
-                      <ImagePreview src={item.sections[0]?.image || "/images/hero/foundationWelcome.png"} alt={item.title} className="w-full h-full">
+                      <ImagePreview src={item.images?.[0] || "/images/hero/foundationWelcome.png"} alt={item.title} className="w-full h-full">
                         <Image
-                          src={item.sections[0]?.image || "/images/hero/foundationWelcome.png"}
+                          src={item.images?.[0] || "/images/hero/foundationWelcome.png"}
                           alt={item.title}
                           fill
                           className="object-cover"
