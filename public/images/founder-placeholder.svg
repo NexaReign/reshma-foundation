@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Founder Photo Placeholder</title>
+  <desc id="desc">Sample founder image placeholder with warm tones and portrait outline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="80" fill="url(#bg)" />
+  <circle cx="400" cy="320" r="200" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-width="12" />
+  <path d="M240 580c0-95 80-172 160-172s160 77 160 172" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" />
+  <circle cx="400" cy="285" r="110" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-width="18" />
+  <path d="M320 335c12 20 39 34 80 34s68-14 80-34" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" />
+  <circle cx="360" cy="265" r="12" fill="#ffffff" />
+  <circle cx="440" cy="265" r="12" fill="#ffffff" />
+  <rect x="242" y="124" width="316" height="140" rx="36" fill="url(#accent)" />
+  <text x="400" y="186" text-anchor="middle" font-family="Inter, sans-serif" font-size="42" fill="#1f2937">Founder</text>
+  <text x="400" y="236" text-anchor="middle" font-family="Inter, sans-serif" font-size="22" fill="#1f2937" opacity="0.85">Photo Sample</text>
+</svg>

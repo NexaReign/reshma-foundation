@@ -3,85 +3,25 @@
   "title": "Introduction Gallery",
   "description": "A slideshow of images for the About Founder introduction section.",
   "images": [
-    {
-      "src": "/images/Introduction/Introduction1.png",
-      "desc": "Introduction service 1"
-    },
-    {
-      "src": "/images/Introduction/Introduction2.jpg",
-      "desc": "Introduction service 2"
-    },
-    {
-      "src": "/images/Introduction/Introduction3.jpg",
-      "desc": "Introduction service 3"
-    },
-    {
-      "src": "/images/Introduction/Introduction4.jpg",
-      "desc": "Introduction service 4"
-    },
-    {
-      "src": "/images/Introduction/Introduction5.jpg",
-      "desc": "Introduction service 5"
-    },
-    {
-      "src": "/images/Introduction/Introduction6.png",
-      "desc": "Introduction service 1"
-    },
-    {
-      "src": "/images/Introduction/Introduction7.jpg",
-      "desc": "Introduction service 2"
-    },
-    {
-      "src": "/images/Introduction/Introduction8.jpg",
-      "desc": "Introduction service 3"
-    },
-    {
-      "src": "/images/Introduction/Introduction9.jpg",
-      "desc": "Introduction service 4"
-    },
-    {
-      "src": "/images/Introduction/Introduction10.jpg",
-      "desc": "Introduction service 5"
-    },
-    {
-      "src": "/images/Introduction/Introduction11.jpg",
-      "desc": "Introduction service 1"
-    },
-    {
-      "src": "/images/Introduction/Introduction12.jpg",
-      "desc": "Introduction service 2"
-    },
-    {
-      "src": "/images/Introduction/Introduction13.jpg",
-      "desc": "Introduction service 3"
-    },
-    {
-      "src": "/images/Introduction/Introduction14.jpg",
-      "desc": "Introduction service 4"
-    },
-    {
-      "src": "/images/Introduction/Introduction15.jpg",
-      "desc": "Introduction service 5"
-    },
-    {
-      "src": "/images/Introduction/Introduction16.jpg",
-      "desc": "Introduction service 1"
-    },
-    {
-      "src": "/images/Introduction/Introduction17.jpg",
-      "desc": "Introduction service 2"
-    },
-    {
-      "src": "/images/Introduction/Introduction18.jpg",
-      "desc": "Introduction service 3"
-    },
-    {
-      "src": "/images/Introduction/Introduction19.jpg",
-      "desc": "Introduction service 4"
-    },
-    {
-      "src": "/images/Introduction/Introduction20.jpg",
-      "desc": "Introduction service 5"
-    }
+    "/images/Introduction/Introduction1.png",
+    "/images/Introduction/Introduction2.jpg",
+    "/images/Introduction/Introduction3.jpg",
+    "/images/Introduction/Introduction4.jpg",
+    "/images/Introduction/Introduction5.jpg",
+    "/images/Introduction/Introduction6.jpg",
+    "/images/Introduction/Introduction7.jpg",
+    "/images/Introduction/Introduction8.jpg",
+    "/images/Introduction/Introduction9.jpg",
+    "/images/Introduction/Introduction10.jpg",
+    "/images/Introduction/Introduction11.jpg",
+    "/images/Introduction/Introduction12.jpg",
+    "/images/Introduction/Introduction13.jpg",
+    "/images/Introduction/Introduction14.jpg",
+    "/images/Introduction/Introduction15.jpg",
+    "/images/Introduction/Introduction16.jpg",
+    "/images/Introduction/Introduction17.jpg",
+    "/images/Introduction/Introduction18.jpg",
+    "/images/Introduction/Introduction19.jpg",
+    "/images/Introduction/Introduction20.jpg"
   ]
 }

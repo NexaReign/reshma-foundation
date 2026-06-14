@@ -1,83 +1,22 @@
 {
   "id": "School",
   "title": "School Gallery",
-  "description": "Visual stories from our school support initiatives, classrooms, and student activities.",
-  "image": "/images/gallery/School/School1.jpg",
-  "sections": [
-    {
-      "image": "/images/gallery/School/School2.jpg",
-      "title": "Classroom Support",
-      "content": "Students engaged in learning with the supplies and support our programs provide."
-    },
-    {
-      "image": "/images/gallery/School/School3.jpg",
-      "title": "School Events",
-      "content": "Snapshots from school activities and community education events."
-    },
-    {
-      "image": "/images/gallery/School/School4.jpg",
-      "title": "Student Engagement",
-      "content": "Hands-on learning and joyful moments during our school support visits."
-    },
-    {
-      "image": "/images/gallery/School/School5.jpg",
-      "title": "Classroom Support",
-      "content": "Students engaged in learning with the supplies and support our programs provide."
-    },
-    {
-      "image": "/images/gallery/School/School6.jpg",
-      "title": "School Events",
-      "content": "Snapshots from school activities and community education events."
-    },
-    {
-      "image": "/images/gallery/School/School7.jpg",
-      "title": "Student Engagement",
-      "content": "Hands-on learning and joyful moments during our school support visits."
-    },
-    {
-      "image": "/images/gallery/School/School8.jpg",
-      "title": "Classroom Support",
-      "content": "Students engaged in learning with the supplies and support our programs provide."
-    },
-    {
-      "image": "/images/gallery/School/School9.jpg",
-      "title": "School Events",
-      "content": "Snapshots from school activities and community education events."
-    },
-    {
-      "image": "/images/gallery/School/School10.jpg",
-      "title": "Student Engagement",
-      "content": "Hands-on learning and joyful moments during our school support visits."
-    },
-    {
-      "image": "/images/gallery/School/School11.jpg",
-      "title": "Classroom Support",
-      "content": "Students engaged in learning with the supplies and support our programs provide."
-    },
-    {
-      "image": "/images/gallery/School/School12.jpg",
-      "title": "School Events",
-      "content": "Snapshots from school activities and community education events."
-    },
-    {
-      "image": "/images/gallery/School/School13.jpg",
-      "title": "Student Engagement",
-      "content": "Hands-on learning and joyful moments during our school support visits."
-    },
-    {
-      "image": "/images/gallery/School/School14.jpg",
-      "title": "Classroom Support",
-      "content": "Students engaged in learning with the supplies and support our programs provide."
-    },
-    {
-      "image": "/images/gallery/School/School15.jpg",
-      "title": "School Events",
-      "content": "Snapshots from school activities and community education events."
-    },
-    {
-      "image": "/images/gallery/School/School16.jpg",
-      "title": "Student Engagement",
-      "content": "Hands-on learning and joyful moments during our school support visits."
-    }
+  "description": "Education remains one of the core pillars of Reshma Foundation’s mission to create lasting social change. The foundation has supported students from economically challenged backgrounds by assisting with educational fees and ensuring that financial hardship does not become a barrier to learning. Essential study materials including notebooks, pencils, pens, and academic supplies were distributed to encourage continued education and academic growth. To improve school infrastructure and student well-being, Reshma Foundation has also constructed sanitation facilities for a government school in Korattur sponsoring ₹3.5 lakhs, creating a safer and healthier learning environment for future generations.",
+  "images": [
+    "/images/gallery/School/School2.jpg",
+    "/images/gallery/School/School3.jpg",
+    "/images/gallery/School/School4.jpg",
+    "/images/gallery/School/School5.jpg",
+    "/images/gallery/School/School6.jpg",
+    "/images/gallery/School/School7.jpg",
+    "/images/gallery/School/School8.jpg",
+    "/images/gallery/School/School9.jpg",
+    "/images/gallery/School/School10.jpg",
+    "/images/gallery/School/School11.jpg",
+    "/images/gallery/School/School12.jpg",
+    "/images/gallery/School/School13.jpg",
+    "/images/gallery/School/School14.jpg",
+    "/images/gallery/School/School15.jpg",
+    "/images/gallery/School/School16.jpg"
   ]
 }
