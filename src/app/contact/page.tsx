@@ -202,7 +202,7 @@ export default function Contact() {
           className="rounded-[2.5rem] overflow-hidden bg-gradient-to-br from-[#7c3aed]/10 to-[#f97316]/10 p-8 shadow-lg border border-[#7c3aed]/20"
         >
           <h2 className="text-3xl font-bold text-slate-950 mb-8">Office Hours</h2>
-          <div className="grid gap-6 sm:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2">
             {contactData.officeHours.map((slot, index) => (
               <motion.div
                 key={index}
