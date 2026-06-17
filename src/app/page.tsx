@@ -190,9 +190,12 @@ export default function Home() {
             <p className="text-slate-700 mb-6">
               Your donation helps us continue our work in transforming lives across Tamil Nadu.
             </p>
-            <Link href="/donate" className="inline-flex items-center gap-2 rounded-2xl bg-[#f97316] px-6 py-3 text-white transition hover:bg-[#ea580c]">
+            {/* <Link href="/donate" className="inline-flex items-center gap-2 rounded-2xl bg-[#f97316] px-6 py-3 text-white transition hover:bg-[#ea580c]">
               Donate Now →
-            </Link>
+            </Link> */}
+            <p className="text-slate-700 mb-6">
+              Donate page is under construction. Please reach out to us via the contact page for donation inquiries.
+            </p>
           </div>
         </div>
       </section>
