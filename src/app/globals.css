@@ -39,19 +39,89 @@ section {
 .marquee {
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .marquee-track {
   display: flex;
+  align-items: center;
   gap: 1rem;
-  animation: marquee 22s linear infinite;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
 }
 
 @keyframes marquee {
-  0% {
-    transform: translateX(0%);
+  from {
+    transform: translateX(0);
   }
-  100% {
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ticker-track {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: max-content;
+  animation: ticker-scroll 35s linear infinite;
+}
+
+.ticker-container:hover .ticker-track {
+  animation-play-state: paused;
+}
+
+.ticker-card {
+  flex-shrink: 0;
+
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 2rem;
+
+  border-radius: 9999px;
+
+  white-space: nowrap;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: #0f172a;
+
+  border: 1px solid #e2e8f0;
+
+  background: linear-gradient(
+    135deg,
+    #fef3c7 0%,
+    #fde68a 50%,
+    #fb7185 100%
+  );
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.08),
+    0 0 20px rgba(251, 146, 60, 0.15);
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
     transform: translateX(-50%);
   }
 }
