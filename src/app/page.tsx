@@ -32,9 +32,9 @@ export default function Home() {
             <Link href="/projects" className="rounded-2xl bg-[#fb923c] px-6 py-4 text-center text-white shadow-lg shadow-orange-200 transition hover:bg-[#f97316]">
               Explore Projects
             </Link>
-            <Link href="/donate" className="rounded-2xl border border-white bg-white/10 backdrop-blur-sm px-6 py-4 text-center text-white shadow-sm transition hover:bg-white/20">
+            {/* <Link href="/donate" className="rounded-2xl border border-white bg-white/10 backdrop-blur-sm px-6 py-4 text-center text-white shadow-sm transition hover:bg-white/20">
               Support the Mission
-            </Link>
+            </Link> */}
           </div>
         </div>
 
