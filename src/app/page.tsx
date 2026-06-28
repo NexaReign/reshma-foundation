@@ -32,9 +32,9 @@ export default function Home() {
             <Link href="/projects" className="rounded-2xl bg-[#fb923c] px-6 py-4 text-center text-white shadow-lg shadow-orange-200 transition hover:bg-[#f97316]">
               Explore Projects
             </Link>
-            {/* <Link href="/donate" className="rounded-2xl border border-white bg-white/10 backdrop-blur-sm px-6 py-4 text-center text-white shadow-sm transition hover:bg-white/20">
+             <Link href="/donate" className="rounded-2xl border border-white bg-white/10 backdrop-blur-sm px-6 py-4 text-center text-white shadow-sm transition hover:bg-white/20">
               Support the Mission
-            </Link> */}
+            </Link> 
           </div>
         </div>
 
@@ -89,7 +89,7 @@ export default function Home() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://youtu.be/D1D83gLdnv4?si=ie40yOlQ8OBTWNfo"
+                  src="https://www.youtube.com/embed/D1D83gLdnv4"
                 title="Reshma Foundation Video"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -190,12 +190,9 @@ export default function Home() {
             <p className="text-slate-700 mb-6">
               Your donation helps us continue our work in transforming lives across Tamil Nadu.
             </p>
-            {/* <Link href="/donate" className="inline-flex items-center gap-2 rounded-2xl bg-[#f97316] px-6 py-3 text-white transition hover:bg-[#ea580c]">
+           <Link href="/donate" className="inline-flex items-center gap-2 rounded-2xl bg-[#f97316] px-6 py-3 text-white transition hover:bg-[#ea580c]">
               Donate Now →
-            </Link> */}
-            <p className="text-slate-700 mb-6">
-              Donate page is under construction. Please reach out to us via the contact page for donation inquiries.
-            </p>
+            </Link> 
           </div>
         </div>
       </section>
