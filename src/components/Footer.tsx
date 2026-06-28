@@ -107,12 +107,17 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-center md:text-left">
-          <p className="text-sm text-slate-500">
-            © {new Date().getFullYear()} Reshma Foundation. All rights reserved.
-          </p>
-          <p className="text-xs text-slate-600">
-            Empowering communities across Tamil Nadu
-          </p>
+          <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+            <p className="text-sm text-slate-500">© {new Date().getFullYear()} Reshma Foundation. All rights reserved.</p>
+            <p className="text-xs text-slate-600">Empowering communities across Tamil Nadu</p>
+          </div>
+
+          <div className="flex items-center gap-3 justify-center md:justify-end">
+            <span className="text-xs text-slate-500">Crafted by</span>
+            <span className="text-sm font-medium text-slate-200">NexaReign</span>
+            <span className="hidden sm:inline-block text-slate-600">|</span>
+            <a href="tel:9003213872" className="text-xs text-slate-500 hover:text-[#f97316]">Contact: 9003213872</a>
+          </div>
         </div>
       </div>
     </footer>

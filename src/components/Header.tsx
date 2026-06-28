@@ -15,7 +15,7 @@ const navItems = [
   { label: "Pearl Projects", href: "/pearl-projects" },
   { label: "About Founder", href: "/about-founder" },
   { label: "Contact", href: "/contact" },
-  //{ label: "Donate", href: "/donate" },
+  { label: "Donate", href: "/donate" },
 ];
 
 export default function Header() {
